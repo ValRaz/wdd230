@@ -12,7 +12,6 @@ body {
   }
 
   nav {
-    background: white;
     padding: 1rem;
     grid-column: 1/3
   }
