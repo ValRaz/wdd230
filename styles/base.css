@@ -11,7 +11,7 @@ header {
 
 header img {
     width: 200px;
-    height: auto;
+    height: 300px;
     margin-right: 25px;
 }
 
@@ -69,6 +69,8 @@ footer {
 }
 
 footer img {
+    width: 20px;
+    height: 15px; 
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 5px;
 }
