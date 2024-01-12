@@ -1,0 +1,74 @@
+header {
+    color: #75FAA8;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03250C;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    margin-right: 25px;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family: 'Vollkorn', serif;
+}
+
+main {
+    color: #75FAA8;
+    background-color: #451B88;
+    max-width: 1000px;
+    margin: 0 auto;    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+nav {
+    color: #03250C;
+    background-color: #BFB7E1;
+}
+
+nav ul {
+    font-family: "Philosopher", sans-serif;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    color: #75FAA8;
+    background-color: #03250C;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin-top: 5px;
+    margin-left: 15px;
+}
