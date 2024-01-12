@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let lastModifiedDate = new Date(document.lastModified);
     let lastModified = document.getElementById('lastModified');
     if (lastModified) {
-        lastModified.innerHTML += `<br>Last modified: ${lastModifiedDate.toDateString()}`;
+        lastModified.innerHTML += `Last modified: ${lastModifiedDate.toDateString()}`;
     }
 });
