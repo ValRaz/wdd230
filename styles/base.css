@@ -45,6 +45,8 @@ ul {
 }
 
 nav {
+    font-size: 20px;
+    padding: 20px;
     color: #03250C;
     background-color: #BFB7E1;
 }
