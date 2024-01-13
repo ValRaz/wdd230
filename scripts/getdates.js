@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentYear = new Date().getFullYear();
-    let copyrightParagraph = document.getElementById('copyrightParagraph');
-    if (copyrightParagraph) {
-        copyrightParagraph.innerHTML += `${currentYear}`;
+    let yearPlaceholder = document.getElementById('copyrightParagraph');
+    if (yearPlaceholder) {
+        yearPlaceholder.innerHTML += `${currentYear}`;
     }
 
     let lastModifiedDate = new Date(document.lastModified);

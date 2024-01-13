@@ -103,4 +103,11 @@ footer img {
         margin-top: 3px;
         margin-left: 3px;
     }
+
+    #copyrightParagraph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
