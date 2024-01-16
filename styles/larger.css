@@ -1,0 +1,32 @@
+@media screen and (min-width: 768) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 20px
+    }
+
+    nave ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        margin-bottom: 20 px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
