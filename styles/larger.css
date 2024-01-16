@@ -1,4 +1,4 @@
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
     body {
         font-size: 18px;
     }
@@ -23,7 +23,7 @@
     }
 
     .card {
-        margin-bottom: 20 px;
+        margin-bottom: 20px;
     }
 
     footer {
