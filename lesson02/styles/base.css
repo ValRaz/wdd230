@@ -1,21 +1,74 @@
 body {
-
+background-color: #fff;
 }
 
 header {
+    background-color: #1C0338;
+    color: #fff;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: larger;
+    padding: 20px;
+}
 
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 section {
+    background-color: #fff;
+    color: #40095D;
+}
 
+.cardname{
+    background-color: #40095D;
+    color: #fff;
+    font-size: larger;
+    font-family: Space Grotesk;
+}
+.card img {
+    border: 1px solid #000;
+    max-width: 300px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .card{
+    border:1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #40095D;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 9px rgba(0,0,0,0.5);
+}
+.card p{
+    text-align: left;
+    overflow-wrap: break-word;
+    font-family: Bitter;
+}
 
+h1,h2,h3{
+    color: #fff;
+}
+
+h4{
+    font-size: medium;
+    font-family: Bitter;
 }
 
 footer {
     display: flex;
+    background-color: #1C0338;
+    color: #fff;
     text-align: center;
     padding: 20px;
     align-items: center;
@@ -28,4 +81,22 @@ footer img {
     height: 15px; 
     margin-top: 5px;
     margin-left: 5px;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
