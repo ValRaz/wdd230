@@ -1,0 +1,31 @@
+body {
+
+}
+
+header {
+
+}
+
+section {
+
+}
+
+.card{
+
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    width: 20px;
+    height: 15px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}
