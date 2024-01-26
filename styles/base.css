@@ -141,7 +141,8 @@ footer img {
     }
     
     #menu.open::before {
-        content: "❎";
+        content: "X";
+        font-weight: bold;
     }
     
     .navigation {
