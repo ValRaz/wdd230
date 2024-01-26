@@ -74,10 +74,6 @@ nav a{
     color: #03250C;
 }
 
-#menu {
-    display: none;
-}
-
 .active a::before { 
     content: "📍";  
     position: absolute;
