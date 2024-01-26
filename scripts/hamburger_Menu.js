@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
     nav.appendChild(hamburgerBtn);
 
     hamburgerBtn.addEventListener('click', function() {
-        const menu = document.querySelector('nav ul');
+        const menu = nav.querySelector('ul');
         menu.classList.toggle('show-menu');
     });
 });

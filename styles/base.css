@@ -113,6 +113,12 @@ footer img {
     }
     .hamburger {
         display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        padding: 10px;
+        z-index: 100;
+        background-color: transparent;
     }
 
     footer img {
