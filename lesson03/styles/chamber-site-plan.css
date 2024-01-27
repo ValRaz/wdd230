@@ -17,6 +17,14 @@ main {
     text-align: center;
 }
 
+h1,h2 {
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 .site-name {
     margin-bottom: 20px;
 }
@@ -31,12 +39,12 @@ main {
 
 ul {
     list-style-type: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 .color-schema {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .red-color-card {
@@ -76,8 +84,8 @@ ul {
 
 img {
     height: 400px;
-    width: 200 px;
-    padding: 20px
+    width: 200px;
+    padding: 20px;
 }
 
 footer {
