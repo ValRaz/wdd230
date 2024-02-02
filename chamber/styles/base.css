@@ -1,0 +1,29 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+
+
+.navigation, .c2a, .current-events, .weather-card, .spotlightcard1, .spotlightcard2, .spotlightcard3, footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+a {
+    color: #5D0909;
+}
+
+
+main {
+    background-color: #47095D;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #47095D;
+}
+
+
+header, footer {
+    background-color: #EDCD6E;
+    color: #5D0909;
+}
