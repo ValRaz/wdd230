@@ -14,7 +14,8 @@ a {
 
 
 main {
-    background-color: #47095D;
+    background-color: #a4E48B;
+    color:#47095D; 
 }
 
 
@@ -24,6 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header, footer {
-    background-color: #EDCD6E;
-    color: #5D0909;
+    background-color: #47095D;
+    color: #A4E48B;
 }
