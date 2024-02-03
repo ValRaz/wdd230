@@ -169,6 +169,7 @@ footer {
     }
 
     main {
+        grid-template-columns: 1fr;
         padding: 20px;
     }
 
@@ -227,10 +228,36 @@ footer {
 
     .c2a,
     .current-events,
-    .weather-card,
+    .weather-card {
+        grid-column: 1/2;
+    }
+
+    .c2a {
+        grid-row: 2;
+    }
+
+    .current-events {
+        grid-row: 3;
+    }
+
+    .weather-card{
+        grid-row: 4;
+    }
     .spotlightcard1,
     .spotlightcard2,
     .spotlightcard3 {
-        grid-column: span 1;
+        grid-column: 1/2;
+    }
+
+    .spotlightcard1 {
+        grid-row: 5;
+    }
+
+    .spotlightcard2 {
+        grid-row: 6;
+    }
+
+    .spotlightcard3 {
+        grid-row: 7;
     }
 }
