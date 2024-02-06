@@ -164,17 +164,9 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        padding-top: 60px;
-    }
-
-    main {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
-
+    /* Add styles for smaller screens here */
     header {
-        padding: 10px;
+        padding: 10px 20px;
     }
 
     .hero {
@@ -182,16 +174,11 @@ footer {
     }
 
     .navigation {
-        position: relative;
         justify-content: flex-end;
     }
 
     .navigation #menu {
         display: block;
-        cursor: pointer;
-        color: #A4E48B;
-        font-size: 24px;
-        padding: 0 20px;
     }
 
     .navigation ul {
@@ -226,36 +213,16 @@ footer {
 
     .c2a,
     .current-events,
-    .weather-card {
-        grid-column: 1/2;
-    }
-
-    .c2a {
-        grid-row: 2;
-    }
-
-    .current-events {
-        grid-row: 3;
-    }
-
-    .weather-card{
-        grid-row: 4;
-    }
+    .weather-card,
     .spotlightcard1,
     .spotlightcard2,
     .spotlightcard3 {
-        grid-column: 1/2;
+        grid-column: 1/-1; /* Expand to full width */
     }
 
-    .spotlightcard1 {
-        grid-row: 5;
-    }
-
-    .spotlightcard2 {
-        grid-row: 6;
-    }
-
+    .spotlightcard1,
+    .spotlightcard2,
     .spotlightcard3 {
-        grid-row: 7;
+        grid-row: auto; /* Reset grid row */
     }
 }

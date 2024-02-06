@@ -10,12 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             navigation.classList.remove('open');
-
-            navLinks.forEach(navLink => {
-                navLink.classList.remove('active');
-            });
-
-            link.classList.add('active');
         });
     });
 });
