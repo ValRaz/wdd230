@@ -1,12 +1,14 @@
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('ul'); 
+const list = document.querySelector('#list');
+
 
 button.addEventListener('click', () => {
+    console.log('Button clicked');
    
-    if (input.value.trim() !== '') {
+    if (input.value !== '') {
+        
         const li = document.createElement('li');
-
         const deleteButton = document.createElement('button');
         deleteButton.textContent = '❌';
         deleteButton.classList.add('delete'); 
@@ -23,9 +25,6 @@ button.addEventListener('click', () => {
         });
 
         input.value = '';
-
-        input.focus();
-    } else {
         input.focus();
     }
 });
