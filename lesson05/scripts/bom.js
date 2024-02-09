@@ -1,16 +1,16 @@
-const inputElement = document.getElementById('favchap');
-const addButton = document.querySelector('button');
-const listElement = document.getElementById('list');
+const inputt = document.querySelector('#favchap');
+const button = document.querySelector('button');
+const list = document.querySelector('list');
 
-addButton.addEventListener('click', () => {
-    if(inputElement.value.trim() === '') {
-        inputElement.focus();
+button.addEventListener('click', () => {
+    if(input.value != '') {
+        input.focus();
         return;
     }
 
     const li = document.createElement('li');
 
-    li.textContent = inputElement.value.trim();
+    li.textContent = input.value;
 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = '❌';
@@ -18,13 +18,13 @@ addButton.addEventListener('click', () => {
 
     li.appendChild(deleteButton);
 
-    listElement.appendChild(li);
+    list.append(li);
 
-    inputElement.value = '';
+    input.value = '';
 
-    inputElement.focus();
+    input.focus();
 
     deleteButton.addEventListener('click', () => {
-        listElement.removeChild(li);
+        list.removeChild(li);
     });
 });
