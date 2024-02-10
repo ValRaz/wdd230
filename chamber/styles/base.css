@@ -202,6 +202,14 @@ footer {
     transition: left 0.3s ease;
 }
 
+.dark-mode-toggle.dark-mode {
+    background-color: #333;
+}
+
+.dark-mode-toggle.dark-mode::after {
+    left: calc(100% - 2px);
+}
+
 .dark-mode {
     background-color: #000;
     color: #fff;
