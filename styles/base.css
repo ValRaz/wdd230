@@ -49,6 +49,9 @@ main ul a {
     grid-template-columns: 1fr;
     padding: 1rem;
     gap: 20px;
+    border: 3px solid #75FAA8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 p {
@@ -72,6 +75,15 @@ nav ul {
 
 nav a{
     color: #03250C;
+}
+
+.navigation li {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation li:hover {
+    background-color: #03250C;
+    color: #BFB7E1;
 }
 
 .active a::before { 
