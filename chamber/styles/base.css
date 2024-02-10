@@ -177,6 +177,25 @@ footer {
     display: none;
 }
 
+.dark-mode body,
+.dark-mode main,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode .hero,
+.dark-mode .c2a,
+.dark-mode .current-events,
+.dark-mode .weather-card,
+.dark-mode .spotlightcard1,
+.dark-mode .spotlightcard2,
+.dark-mode .spotlightcard3{
+    background-color: #000;
+    color: #fff;
+}
+
 .dark-mode-toggle {
     position: absolute;
     top: 10px;
