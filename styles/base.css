@@ -126,8 +126,9 @@ footer img {
 
 @media only screen and (max-width: 600px) {
     header img {
-        width: 150px;
-        height: 225px;
+        width: 30%; 
+        max-width: 150px;
+        height: auto; 
         margin-right: 15px;
     }
 
@@ -198,7 +199,7 @@ footer img {
         margin: 0.5em;
         border: 1px solid rgba(0, 0, 0, 0.1);
         background-color: #bed;
-        max-width: 580px;
-        height: 100vh;
+        max-width: 100%;
+        height: auto;
     }
 }
