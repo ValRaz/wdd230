@@ -115,7 +115,7 @@ nav a{
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navigation li:hover {
+.navigation a:hover {
     background-color: #03250C;
     color: #BFB7E1;
 }
