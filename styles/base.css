@@ -21,6 +21,7 @@ body {
     margin: 0;
 }
 
+
 h2, h3 {
     font-family: 'Vollkorn', serif;
     padding: 1rem;
@@ -31,6 +32,39 @@ main {
     background-color: #451B88;
     max-width: 1000px;
     margin: 0 auto;    
+}
+
+.hero {
+    position: relative;
+    text-align: center; 
+    margin-top: 20px;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #56689c);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+	font-family:"Vollkorn", serif;
 }
 
 ul {
