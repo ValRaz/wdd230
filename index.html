@@ -50,7 +50,7 @@
         <h2>WDD 230: Web Frontend Development</h2>
 
         <section class="card">
-            <h3>Learning Activities</h3>
+            <h2>Learning Activities</h2>
             
                 <ul>
                     <li><a href = "lesson01/holygrail.html">Lesson 01, Holygrail</a></li>
@@ -71,10 +71,19 @@
         </section>
 
         <section class = "card">
-            <h3>Information</h3>
-            <p>Rexburg, Idaho</p>
-            <p>weather placeholder</p>
-            <p>site traffic placeholder</p>
+            <h2>Current Weather</h2>
+            <div class="info">
+                <div class="location-heading">
+                    <h3>Rexburg, Idaho</h3>
+                </div>
+
+                <div class="details"></div>
+                    <p>Temperature: <span id="currentTemperature">41</span> °F</p>
+                    <p>Wind Speed: <span id="currentWindSpeed">7.3</span> mph</p>
+                    <p>Wind Chill: <span id="windChill">N/A</span></p></p>
+                    <p>site traffic placeholder</p>
+                </div>
+            </div>
         </section>
 
     </main>
@@ -94,5 +103,6 @@
     
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger_Menu.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
