@@ -40,7 +40,11 @@
 
     <main>
         <div class= "hero">
-            <img src="images/montecello.webp" alt="Hero image">
+            <picture>
+                <source srcset="images/small-hero.webp" media="(max-width: 600px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1200px)">   
+                <img src="images/hero-large.webp" alt="rome temple" width="1600" height="900">
+            </picture>    
         </div>
 
         <section class= "c2a">
