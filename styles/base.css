@@ -210,6 +210,7 @@ footer img {
     }
 
     #menu {
+        display: block; /* Ensure the button is displayed on smaller screens */
         font-size: 1.5rem;
         border: 0;
         background: transparent;
@@ -217,7 +218,6 @@ footer img {
         position: absolute;
         top: 1rem;
         right: 1rem;
-        z-index: 1;
     }
     
     #menu::before {
@@ -260,5 +260,11 @@ footer img {
         background-color: #bed;
         max-width: 100%;
         height: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #menu {
+        display: none;
     }
 }
