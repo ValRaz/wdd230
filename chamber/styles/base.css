@@ -252,7 +252,16 @@ footer {
     color: #A4E48B;
     padding: 20px;
 }
+
+.sidebar h2{
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
 .sidebar h2, h3 {
+    color: #A4E48B;
+}
+
+.sidebar a {
     color: #A4E48B;
 }
 
