@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Site</title>
+    <meta name="description" content="Charlottesville Chamber of Commerce homepage for the Chamber of Commerce website assignment in course WDD 230">
+    <meta name="author" content="Valerie Rasmussen">
+    <meta property="og:title" content="Valerie Rasmussen - WDD 230 - Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valraz.github.io/wdd230/chamber/" />
+    <meta property="og:image" content="https://valraz.github.io/wdd230/chamber/images/ogcville.webp" />
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    
+    <header>
+        <img src="images/chamberLogo.webp" alt="Chamber logo">
+        <h1>Charlottesville Chamber of Commerce</h1>
+        <div class="toggle-wrapper">
+            <input type="checkbox" id="darkModeToggle">
+            <label for="darkModeToggle" class="dark-mode-toggle"></label>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div id="menu">&#9776;</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html"class="active">Discover</a></li>
+            <li>Directory</li>
+            <li>Join</li>
+        </ul>        
+    </nav>
+
+    <div class="container">
+        <div  class="sidebar">
+            <section class="visits">
+                <h3></h3>
+            </section>
+
+            <section class="demographics">
+                <h2>Demographics placeholder</h2>      
+            </section>
+                   
+            <section class="events">
+                <h2>Events Placeholder</h2> 
+            </section>
+                
+            <section class="attractions">
+                <h2>Attractions Placeholder</h2>   
+            </section>
+
+            <section class="calendar">
+                <h2>Calendar placeholder</h2>        
+            </section>
+        </div>
+        <main>
+            
+        </main>
+    </div>
+
+    <footer>
+        <p class="contact-info">Charlottesville Regional Chamber of Commerce<br>
+            209 Fifth Street N.E. | Charlottesville, Virginia 22902<br>
+            434.295.3141<br>
+            connect@cvillechamber.com</p>
+        <p class="project-info">Valerie Rasmussen, Chamber of Commerce Site Project, wdd230</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dmtoggle.js"></script>
+    <script src="scripts/visits.js"></script>
+</body>
+</html>
