@@ -320,7 +320,7 @@ footer {
     font-family: "Vollkorn", serif;
 }
 
-.visits,.demographics,.events,.attractions,.calendar{
+.visits,.demographics,.events,.attractions{
     border: 2px solid #A4E48B;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -410,7 +410,7 @@ footer {
         padding: 20px;
     }
 
-    .discover main {
+    #discover main {
         grid-row: auto; 
         grid-column: auto; 
         padding: 20px;
