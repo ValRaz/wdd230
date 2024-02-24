@@ -396,6 +396,7 @@ footer {
 
     .container {
         grid-template-columns: 1fr; 
+        max-width: 100%;
     }
 
     .sidebar {
@@ -405,12 +406,22 @@ footer {
     }
 
     .discover main {
-        grid-row: 3; 
-        grid-column: 1; 
+        grid-row: auto; 
+        grid-column: auto; 
         padding: 20px;
     }
 
     .imagecard {
         max-width: none;
+    }
+
+    .imagecard:hover picture {
+        transform: none;
+    }
+
+    #discover main {
+        grid-row: auto;
+        grid-column: auto;
+        padding: 20px;
     }
 }
