@@ -407,8 +407,8 @@ footer {
     .sidebar {
         background-color: #47095D;
         color: #A4E48B;
-        grid-row: 1; 
-        grid-column: 1; 
+        grid-row: auto; 
+        grid-column: auto; 
         padding: 10px;
     }
 
@@ -425,7 +425,8 @@ footer {
     }
 
     .imagecard {
-        max-width: none;
+        max-width: 100%;
+        margin: 0 auto 10px
     }
 
     .imagecard picture {
