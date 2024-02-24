@@ -271,6 +271,48 @@ main {
     padding: 20px;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    justify-items: center;
+}
+
+.imagecard {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.imagecard picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagelabel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: radial-gradient(#fff, #56689c);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.imagelabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Vollkorn", serif;
+}
+
 .visits,.demographics,.events,.attractions,.calendar{
     border: 2px solid #A4E48B;
     border-radius: 15px;
