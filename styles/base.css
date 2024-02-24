@@ -210,7 +210,7 @@ footer img {
     }
 
     #menu {
-        display: block; /* Ensure the button is displayed on smaller screens */
+        display: block; 
         font-size: 1.5rem;
         border: 0;
         background: transparent;
