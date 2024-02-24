@@ -331,7 +331,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     
     header {
         padding: 10px 10px;
@@ -405,9 +405,11 @@ footer {
     }
 
     .sidebar {
+        background-color: #47095D;
+        color: #A4E48B;
         grid-row: 1; 
         grid-column: 1; 
-        padding: 20px;
+        padding: 10px;
     }
 
     .visits,.demographics,.events,.attractions{
@@ -424,6 +426,11 @@ footer {
 
     .imagecard {
         max-width: none;
+    }
+
+    .imagecard picture {
+        max-width: 100%;
+        height: auto;
     }
 
     .imagecard:hover picture {
