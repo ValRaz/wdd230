@@ -418,15 +418,19 @@ footer {
         padding: 10px;
     }
 
-    #discover main {
+    #discover{
         grid-row: 2;
-        grid-column: auto;  
+        grid-template-columns: 1fr;   
         padding: 10px;
     }
 
     .imagecard {
-        max-width: 100%;
-        margin: 0 auto 10px
+        position: relative;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px auto; 
     }
 
     .imagecard picture {
