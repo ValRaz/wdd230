@@ -1,6 +1,7 @@
 :root {
 	--back: #000;
-  --back2: #6e6e6e;
+	--back2: #3f3f3f;
+	--zebra: #b7b3b3;
 }
 
 body {
@@ -18,20 +19,41 @@ caption {
   padding: 10px;
   caption-side: bottom;
 	color: var(--back);
-	font-size: .85rem;
+	font-size: .95rem;
+}
+
+th[colspan="4"] { 
+	padding: 20px;
+    font-size: x-large;
 }
 
 tr:first-child th:nth-child(-n+3) {
 	background-color: var(--back);
 }
 
-th, td {
-	padding: 7px 15px;
-	border: 1px solid;
-    width:auto;
+th {
+    padding: 10px 20px;
+    width: auto;
+	color: white;
+    background-color: var(--back2);
+    font-size: 1.25rem;
+    text-align: center;
+}
+.colTitle {
+	height: 40px;
 }
 
-th:nth:child(n+2),td:first-child(-n+3) {
+.rowTitle {
+	font-weight: bold;
+}
+
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--zebra);
+    text-align: center;
+}
+
+th:nth-child(n+2),td:first-child(-n+3) {
     width: 100px;
     text-align: center;
 }
@@ -44,4 +66,3 @@ th:first-child {
 td {
 	text-align: center;
 }
-
