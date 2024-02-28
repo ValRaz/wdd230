@@ -22,12 +22,9 @@ caption {
 	font-size: .95rem;
 }
 
-th[colspan="4"] { 
+.tableTitle {
 	padding: 20px;
     font-size: x-large;
-}
-
-tr:first-child th:nth-child(-n+3) {
 	background-color: var(--back);
 }
 
