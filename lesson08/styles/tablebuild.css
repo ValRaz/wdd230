@@ -39,8 +39,15 @@ th {
     font-size: 1.25rem;
     text-align: center;
 }
+
+.colTitleEmpty {
+    background-color: var(--back);
+}
+
 .colTitle {
 	height: 40px;
+	font-size: larger;
+	background-color: var(--back2);	
 }
 
 .rowTitle {
@@ -56,11 +63,6 @@ td {
 th:nth-child(n+2),td:first-child(-n+3) {
     width: 100px;
     text-align: center;
-}
-
-th:first-child {
-	background-color: var(--back);
-	font-size: larger;
 }
 
 td {
