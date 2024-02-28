@@ -38,11 +38,17 @@ th {
 }
 
 .colTitleEmpty {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-size: larger;
     background-color: var(--back);
 }
 
 .colTitle {
+	width: 100px;
 	height: 40px;
+	text-align: center;
 	font-size: larger;
 	background-color: var(--back2);	
 }
@@ -54,11 +60,6 @@ th {
 td {
     padding: 7px 15px;
     border: 1px solid var(--zebra);
-    text-align: center;
-}
-
-th:nth-child(n+2),td:first-child(-n+3) {
-    width: 100px;
     text-align: center;
 }
 
