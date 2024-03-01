@@ -195,6 +195,10 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+#tyfoot {
+    position:fixed;
+    bottom: 0;
+}
 
 footer img {
     width: 20px;
