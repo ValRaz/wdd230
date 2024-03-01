@@ -147,7 +147,7 @@ button {
 
 #rangevalue {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--primary-color);
     margin-top: 5px;
 }
