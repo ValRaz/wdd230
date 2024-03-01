@@ -183,6 +183,9 @@ button:hover {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     color: #75FAA8;
     background-color: #03250C;
@@ -198,6 +201,29 @@ footer img {
     height: 15px; 
     margin-top: 5px;
     margin-left: 5px;
+}
+
+#thanks {
+    background-color: #451B88;   
+}
+
+#thankyou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto; 
+    text-align: center;
+    background-color: #451B88;   
+    color: #75FAA8;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 20px;
 }
 
 @media only screen and (max-width: 600px) {
