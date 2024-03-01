@@ -1,0 +1,253 @@
+:root {
+    --primary-color: #451B88;
+    --secondary-color: #a6d3f0;
+    --text-color: #BFB7E1;
+}
+
+header {
+    color: #75FAA8;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03250C;
+}
+
+header img {
+    width: 200px;
+    height: 300px;
+    margin-right: 25px;
+}
+
+nav {
+    font-size: 20px;
+    padding: 20px;
+    color: #03250C;
+    background-color: #BFB7E1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    font-family: "Philosopher", sans-serif;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a{
+    color: #03250C;
+    padding: 10px;
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation li {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #03250C;
+    color: #BFB7E1;
+}
+
+.active a::before { 
+    content: "📍";  
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2, h3 {
+    font-family: 'Vollkorn', serif;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;    
+}
+
+form {
+    background-color: #75FAA8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px;
+}
+
+fieldset {
+    margin: 20px;
+    border: none;
+    border: 3px solid #75FAA8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #fff,  
+                  1px -1px 0 #fff,
+                 -1px  1px 0 #fff,
+                  1px  1px 0 #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="range"],
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#r {
+    width: 400px;
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    display: block;
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-top: 5px;
+}
+
+#rangevalues {
+    color: var(--primary-color);
+}
+
+.tickmarks {
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+.tickmark {
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(-20%);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    display: flex;
+    color: #75FAA8;
+    background-color: #03250C;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    width: 20px;
+    height: 15px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    header img {
+        width: 30%; 
+        max-width: 150px;
+        height: auto; 
+        margin-right: 15px;
+    }
+
+    nav {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    footer img {
+        width: 15px;
+        height: 12px;
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+
+    #copyrightParagraph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: transparent;
+        color: #03250C;
+    }
+    
+    .navigation a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    .navigation a:hover {
+        background-color: #bbb;
+        color: #333;
+        font-weight: 700;
+    }
+      
+    .open a {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #menu {
+        display: none;
+    }
+}

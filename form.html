@@ -18,16 +18,64 @@
         <nav>
             <ul class="navigation">
                 <li><a href = "#">Home</a></li>
-                <li><a href = "lesson03/chamber-site-plan.html">Site Plan:</a></li>
+                <li><a href = "lesson03/chamber-site-plan.html">Site Plan</a></li>
                 <li><a href = "chamber/">Chamber</a></li>
                 <li><a href = "https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
-                <li><a href = "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng#p7" target="_blank">Scripture:</a></li>
+                <li><a href = "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng#p7" target="_blank">Scripture</a></li>
             </ul>
         </nav>
-    </div> 
+    </div>  
 
     <main>
-        
+        <form id="userForm" action="record.html" method="get">
+            <fieldset class="login">
+                <legend>Login Credentials</legend>
+                <div>
+                    <label>Username:
+                        <input type="text" id="username" name="username" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label>Password:
+                        <input type="text" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label>Confirm Password:
+                        <input type="text" id="confirmPassword" name="comfirmPassword" required>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset class="email">
+                <legend>Email</legend>
+                <label>Email:
+                    <input type="email" id="email" name="email" placeholder="someone@byu.edu" pattern="[a-ZA-Z0-9._%+-]+@byu\.edu$" title="Please enter a valid email address." required>
+                </label>
+            </fieldset>
+
+            <fieldset class="rating">
+                <legend>Page Rating</legend>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <div class="tickmarks" id="tickmarks"></div>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>    
+        </form>
     </main>
 
     <footer>
@@ -39,5 +87,7 @@
         <p id="lastModified"></p>
     </footer>
     
+    <script src="scripts/form.js"></script>
+    <script src="scripts/rating.js"></script>
 </body>
 </html>
