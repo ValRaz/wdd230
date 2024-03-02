@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Chamber of Commerce Page</title>
+    <meta name="description" content="Charlottesville Chamber of Commerce membership description and Joiner form submission page.">
+    <meta name="author" content="Valerie Rasmussen">
+    <meta property="og:title" content="Valerie Rasmussen - WDD 230 - Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valraz.github.io/wdd230/chamber/" />
+    <meta property="og:image" content="https://valraz.github.io/wdd230/chamber/images/ogcville.webp" />
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img src="images/chamberLogo.webp" alt="Chamber logo">
+        <h1>Charlottesville Chamber of Commerce</h1>
+        <div class="toggle-wrapper">
+            <input type="checkbox" id="darkModeToggle">
+            <label for="darkModeToggle" class="dark-mode-toggle"></label>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div id="menu">&#9776;</div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li>Directory</li>
+            <li>Join</li>
+        </ul>  
+    </nav>
+
+    <main id="join">
+        <form id="userForm" action="record.html" method="get">
+            <fieldset class="login">
+                <legend>Member Information</legend>
+                <div>
+                    <label>First Name:
+                        <input type="text" id="fname" name="fname" required>
+                    </label>
+                </div>
+    
+                <div>
+                    <label>Last Name:
+                        <input type="text" id="lname" name="lname" required>
+                    </label>
+                </div>
+    
+                <div>
+                    <label>Title/Position:
+                        <input type="text" id="title" name="title" pattern="[a-zA-Z\- ]{7,}" required>
+                    </label>
+                </div>
+            </fieldset>
+    
+            <fieldset class="contact-info">
+                <legend>Contact Information</legend>
+                <label>Email:
+                    <input type="email" id="email" name="email" placeholder="someone@gmail.com" title="Please enter a valid email address." required>
+                </label>
+    
+                <label>Mobile:
+                    <input type="tel" id="pnumber" name="number" placeholder="15552345" title="Please enter a valid mobile phone number." required>
+                </label>
+            </fieldset>
+    
+            <fieldset class="membership"> 
+                <legend>Membership Information</legend>
+                <label>Organization:
+                    <input type="text" id="organization" name="organization" required>
+                </label>
+    
+                <label>Membership Level:
+                    <select id="membership" name="membership" required>
+                        <option value="">Select Membership Level</option>
+                        <option value="NP">NP Membership (No Fee)</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+    
+                <label>Organization Description:
+                    <textarea id="description" name="description" rows="6" cols="60" required></textarea>
+                </label>
+            </fieldset>
+
+            <input type="hidden" id="submissionDate" name="submissionDate" value="">
+            <button class="submit" type="submit">Join the Chamber</button>
+        </form>
+
+        <div class="benefits">
+            <section class="benefitcard">
+                <h2>NP Membership (No Fee)</h2>
+                <ul>
+                    <li>Designed for non-profit organizations</li>
+                    <li>No associated fees</li>
+                    <li>Access to essential Chamber resources</li>
+                    <li>Networking opportunities</li>
+                </ul>
+            </section>
+
+            <section class="benefitcard">
+                <h2>Bronze Membership</h2>
+                <ul>
+                    <li>Entry-level option for businesses</li>
+                    <li>Access to Chamber networking events</li>
+                    <li>Business promotion opportunities</li>
+                    <li>Informational resources</li>
+                </ul>
+            </section>
+
+            <section class="benefitcard">
+                <h2>Silver Membership</h2>
+                <ul>
+                    <li>Enhanced benefits with priority access to events</li>
+                    <li>Exclusive promotional opportunities</li>
+                    <li>Advanced networking capabilities</li>
+                    <li>Specialized business resources</li>
+                </ul>
+            </section>
+        
+            <section class="benefitcard">
+                <h2>Gold Membership</h2>
+                <ul>
+                    <li>Premium benefits with VIP access to events</li>
+                    <li>Personalized business support services</li>
+                    <li>Exclusive executive forums and leadership training programs</li>
+                    <li>Recognition as industry leaders and influencers</li>
+                </ul>
+            </section>
+        </div>              
+    </main>
+    
+    <footer>
+        <p class="contact-info">Charlottesville Regional Chamber of Commerce<br>
+            209 Fifth Street N.E. | Charlottesville, Virginia 22902<br>
+            434.295.3141<br>
+            connect@cvillechamber.com</p>
+        <p class="project-info">Valerie Rasmussen, Chamber of Commerce Site Project, wdd230</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/lastModified.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dmtoggle.js"></script>
+</body>
+</html>

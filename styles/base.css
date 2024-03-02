@@ -164,24 +164,6 @@ nav a{
     border: 0;
 }
 
-footer {
-    display: flex;
-    color: #75FAA8;
-    background-color: #03250C;
-    text-align: center;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-footer img {
-    width: 20px;
-    height: 15px; 
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
 @media only screen and (max-width: 600px) {
     header img {
         width: 30%; 

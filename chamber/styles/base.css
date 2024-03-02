@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #451B88;
+    --secondary-color: #a6d3f0;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -330,7 +335,208 @@ footer {
     justify-content: center;
 }
 
+#join {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
 
+#userForm {
+    grid-column: 1;
+}
+
+.benefitcard {
+    grid-column: 2;
+}
+
+.benefitcard {
+    margin: 20px;
+    border: 2px solid #47095D;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 45px;
+    height: fit-content;
+}
+
+.benefitcard h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.benefitcard ul {
+    text-align: left;
+}
+
+#userForm {
+    max-width: 700px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#thanks {
+    background-color: var(--primary-color);   
+}
+
+#thankyou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Philosopher", sans-serif;
+    text-align: center;
+    background-color: var(--primary-color);   
+    color: #75FAA8;
+    padding: 20px;
+}
+
+#thankyou h1 {
+    margin: 0 auto;
+}
+
+form {
+    background-color: #75FAA8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px;
+}
+
+fieldset {
+    margin: 20px;
+    border: none;
+    border: 3px solid #75FAA8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+legend {
+    font-family: "Philosopher", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #fff,  
+                  1px -1px 0 #fff,
+                 -1px  1px 0 #fff,
+                  1px  1px 0 #fff;
+}
+
+label {
+    display: block;
+    font-family: "Philosopher", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+#userForm input[type="text"],
+#userForm input[type="email"],
+#userForm button,
+#userForm textarea,
+#userForm select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+fieldset.membership {
+    margin: 20px;
+    border: none;
+    border: 3px solid #75FAA8;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+fieldset.membership legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #fff,  
+                  1px -1px 0 #fff,
+                 -1px  1px 0 #fff,
+                  1px  1px 0 #fff;
+}
+
+fieldset.membership label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+fieldset.membership textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+#userForm textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.submit {
+    display: block;
+    background-color: var(--primary-color);
+    color: #A4E48B;
+    border: none;
+    cursor: pointer;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    font-weight: bold;
+    background-color: #A4E48B;
+    color: var(--primary-color)
+}
+
+#tyfoot {
+    width: 100%;
+    display: flex;
+    color: #75FAA8;
+    background-color: #03250C;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#tyfoot {
+    position:fixed;
+    bottom: 0;
+}
 @media screen and (max-width: 700px) {
     
     header {
@@ -440,5 +646,20 @@ footer {
 
     .imagecard:hover picture {
         transform: none;
+    }
+
+    #join {
+        display: block;
+        width: calc(100% - 40px)
+    }
+
+    #userForm {
+        margin-bottom: 20px;
+        width: calc(100% - 40px);
+    }
+
+    .benefitcard {
+        width: calc(100% - 40px); 
+        margin: 20px;
     }
 }
