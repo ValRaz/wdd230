@@ -1,0 +1,40 @@
+{
+   "wardInformation": {
+    "familyName": "Smith",
+    "moveInDate": "2012-7-20",
+    "numberOfPeople": 6,
+    "visitedByBishopric": true,
+    "family_members": [
+        {
+            "name": "Jacob Smith",
+            "gender": "male",
+            "birthdate": "1969-02-12"
+        },
+        {
+            "name": "Nichole Smith",
+            "gender": "female",
+            "birthdate": "1967-07-25"
+        },
+        {
+            "name": "Michelle Smith",
+            "gender": "female",
+            "birthdate": "1983-11-03"
+          },
+          {
+            "name": "Edward Smith",
+            "gender": "male",
+            "birthdate": "1985-2-17"
+          },
+          {
+            "name": "Eric Smith",
+            "gender": "male",
+            "birthdate": "1990-09-27"
+          },
+          {
+            "name": "Julie Smith",
+            "gender": "female",
+            "birthdate": "1994-05-30"
+          }
+    ]
+   } 
+}
