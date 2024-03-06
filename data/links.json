@@ -1,0 +1,121 @@
+{
+    "lessons": [
+        {
+            "lesson":"01",
+            "links":[
+                {
+                    "url":"lesson01/holygrail.html",
+                    "title":"Holygrail"
+                },
+                {
+                    "url":"lesson01/media-query.html",
+                    "title":"Media Query Activity"
+                }
+            ]
+        },
+        {
+            "lesson":"02",
+            "links":[
+                {
+                    "url":"lesson02design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"lesson02/design-principles.html",
+                    "title":"Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson":"03",
+            "links":[
+                {
+                    "url":"/lesson03/Images/combinatorsExercise.png",
+                    "title":"Combinators Exercise"
+                },
+                {
+                    "url":"https://codepen.io/Valerie-Dresen/pen/dyrzaeJ",
+                    "title":"Pseudo-Element Activity, Codepen"
+                },
+                {
+                    "url":"https://codepen.io/Valerie-Dresen/pen/WNmEPgV",
+                    "title":"Responsive Navigation Activity, Codepen"
+                },
+                {
+                    "url":"lesson03/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson":"04",
+            "links":[
+                {
+                    "url":"https://codepen.io/Valerie-Dresen/pen/LYadGBB",
+                    "title":"Pseudo-Class Fun, Codepen"
+                }
+            ]
+        },
+        {
+            "lesson":"05",
+            "links":[
+                {
+                    "url":"lesson05/bom.html",
+                    "title":"DOM Manipulation"
+                }
+            ]
+        },
+        {
+            "lesson":"06",
+            "links":[
+                {
+                    "url":"https://valraz.github.io/wdd230/lesson06/images/landscape.webp",
+                    "title":"Image Optimization"
+                },
+                {
+                    "url":"lesson06/responsive-imges.html",
+                    "title":"Responsive images"
+                }
+            ]
+        },
+        {
+            "lesson":"07",
+            "links":[
+                {
+                    "url":"lesson07/lazyload.html",
+                    "title":"Lazy Loading Implementation"
+                },
+                {
+                    "url":"lesson07/bom.html",
+                    "title":"BOM App Local Storage"
+                }
+            ]
+        },
+        {
+            "lesson":"08",
+            "links":[
+                {
+                    "url":"lesson08/tablebuild.html",
+                    "title":"HTML Table Build"
+                },
+                {
+                    "url":"lesson08/form-start/index.html",
+                    "title":"HTML Form Build"
+                }
+            ]
+        },
+        {
+            "lesson":"09",
+            "links":[
+                {
+                    "url":"lesson09/new-ward-members.json",
+                    "title":"Original JSON"
+                },
+                {
+                    "url":"lesson09/prophets.html",
+                    "title":"Fetch API Activity"
+                }
+            ]
+        }
+    ]
+}
