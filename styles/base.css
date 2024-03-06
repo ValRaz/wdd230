@@ -74,6 +74,19 @@ ul {
     margin: 0;
 }
 
+#links li {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    text-decoration: double;
+}
+
+li a {
+    font-size: medium;
+    font-weight: 100;
+}
+
 main ul a {
     padding: 0.5rem;
     color: #82F962;
