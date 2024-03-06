@@ -1,0 +1,53 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+    background-color: #fff;
+    color: #03250C;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    border: 2px solid #03250C;
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #75FAA8;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h2, p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Vollkorn', serif;
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+}
