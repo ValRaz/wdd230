@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+          "name": "Bald Guy Studio",
+          "type": "Marketing Consultants",
+          "address": "932 Bing Lane, Charlottesville VA 22903",
+          "phone number": "(434) 825-8921",
+          "website url": "https://www.baldguystudio.com/",
+          "image": "<image placeholder>",
+          "membership level": "Gold Member"
+        },
+        {
+          "name": "Cav Futures",
+          "type": "Advertising",
+          "address": "P.O. Box 6581, Charlottesville VA 22906",
+          "phone number": "(434) 962-4841",
+          "website url": "https://www.cavfutures.com/",
+          "image": "<image placeholder>",
+          "membership level": "Gold Member"
+        },
+        {
+          "name": "Meticulous, LLC",
+          "type": "Product Design, UX, Strategy and Roadmapping",
+          "address": "3775 Stony Point Rd, Charlottesville VA 22911",
+          "phone number": "(434) 661-5844",
+          "website url": "https://www.meticulous.com/",
+          "image": "<image placeholder>",
+          "membership level": "Silver Member"
+        },
+        {
+          "name": "CodeShoppe.NET",
+          "type": "Process Automation and Systems Integration Consultants",
+          "address": "PO Box 1623, Charlottesville VA 22902",
+          "phone number": "4-343-326-0693",
+          "website url": "https://www.flowcode.com/page/codeshoppe",
+          "image": "<image placeholder>",
+          "membership level": "Bronze Member"
+        },
+        {
+          "name": "Saber Light Knights LLC",
+          "type": "Fitness and Wellness",
+          "address": "3006 Berkmar Dr, Charlottesville VA 22920",
+          "phone number": "(434) 327-6984",
+          "website url": "https://www.saberlightknights.com/",
+          "image": "<image placeholder>",
+          "membership level": "Bronze Member"
+        },
+        {
+          "name": "The Scrappy Elephant",
+          "type": "",
+          "address": "1745 Allied St Suite C, Charlottesville VA 22903",
+          "phone number": "(434) 962-6288",
+          "website url": "https://www.scrappyelephant.com/",
+          "image": "<image placeholder>",
+          "membership level": "Silver Member"
+        },
+        {
+          "name": "Charlottesville Albemarle SPCA",
+          "type": "Nonprofit Organization",
+          "address": "3355 Berkmar Dr, Charlottesville VA 22901",
+          "phone number": "(434) 973-5959",
+          "website url": "https://caspca.org/",
+          "image": "<image placeholder>",
+          "membership level": "NP Member"
+        },
+        {
+          "name": "Boar's Head Resort",
+          "type": "Hotel",
+          "address": "200 Ednam Drive, Charlottesville VA 22903",
+          "phone number": "(434) 296-2181",
+          "website url": "https://www.boarsheadresort.com/",
+          "image": "<image placeholder>",
+          "membership level": "Gold Member"
+        }
+    ]
+}
