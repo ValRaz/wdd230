@@ -27,6 +27,7 @@ function displayMembers(members) {
                        <strong>Website URL:</strong> <a href="${member['website url']}">${member['website url']}</a>`;
 
         const image = document.createElement('img');
+        image.classList.add('logos');
         image.src = member.image;
         image.alt = `${member.name} Image`;
 
