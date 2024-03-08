@@ -6,7 +6,7 @@
           "address": "932 Bing Lane, Charlottesville VA 22903",
           "phone number": "(434) 825-8921",
           "website url": "https://www.baldguystudio.com/",
-          "image": "chamber/images/baldguyslogo.webp",
+          "image": "https://valraz.github.io/wdd230/chamber/images/baldguyslogo.webp",
           "membership level": "Gold Member"
         },
         {
@@ -15,7 +15,7 @@
           "address": "P.O. Box 6581, Charlottesville VA 22906",
           "phone number": "(434) 962-4841",
           "website url": "https://www.cavfutures.com/",
-          "image": "chamber/images/cafutureslogo.webp",
+          "image": "https://valraz.github.io/wdd230/chamber/images/cafutureslogo.webp",
           "membership level": "Gold Member"
         },
         {
@@ -24,7 +24,7 @@
           "address": "3775 Stony Point Rd, Charlottesville VA 22911",
           "phone number": "(434) 661-5844",
           "website url": "https://www.meticulous.com/",
-          "image": "chamber/images/meticuluslogo.webp",
+          "image": "https://valraz.github.io/wdd230/chamber/images/meticuluslogo.webp",
           "membership level": "Silver Member"
         },
         {
