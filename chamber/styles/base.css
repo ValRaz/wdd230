@@ -549,6 +549,33 @@ fieldset.membership textarea {
     gap: 20px;
 }
 
+#member-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.comMembers {
+    border: 2px solid #03250C;
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #47095D;
+    color: #75FAA8;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+}
+
+.comMembers a {
+    color: #A4E48B;
+}
+
+.comMembers h2 {
+    color: #A4E48B;
+}
+
 @media screen and (max-width: 700px) {
     
     header {

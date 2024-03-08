@@ -15,7 +15,8 @@ getMemberData();
 function displayMembers(members) {
     members.forEach(member => {
         const card = document.createElement('section');
-        
+        card.classList.add('comMembers');
+
         const h2 = document.createElement('h2');
         h2.textContent = member.name;
 
