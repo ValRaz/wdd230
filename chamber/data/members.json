@@ -33,7 +33,7 @@
           "address": "PO Box 1623, Charlottesville VA 22902",
           "phone number": "4-343-326-0693",
           "website url": "https://www.flowcode.com/page/codeshoppe",
-          "image": "<image placeholder>",
+          "image": "https://valraz.github.io/wdd230/chamber/images/codeshoppelogo.webp",
           "membership level": "Bronze Member"
         },
         {
@@ -42,16 +42,16 @@
           "address": "3006 Berkmar Dr, Charlottesville VA 22920",
           "phone number": "(434) 327-6984",
           "website url": "https://www.saberlightknights.com/",
-          "image": "<image placeholder>",
+          "image": "https://valraz.github.io/wdd230/chamber/images/saberknightslogo.webp",
           "membership level": "Bronze Member"
         },
         {
           "name": "The Scrappy Elephant",
-          "type": "",
+          "type": "Creative Arts and Supplies",
           "address": "1745 Allied St Suite C, Charlottesville VA 22903",
           "phone number": "(434) 962-6288",
           "website url": "https://www.scrappyelephant.com/",
-          "image": "<image placeholder>",
+          "image": "https://valraz.github.io/wdd230/chamber/images/scrappyelephantlogo.webp",
           "membership level": "Silver Member"
         },
         {
@@ -60,7 +60,7 @@
           "address": "3355 Berkmar Dr, Charlottesville VA 22901",
           "phone number": "(434) 973-5959",
           "website url": "https://caspca.org/",
-          "image": "<image placeholder>",
+          "image": "https://valraz.github.io/wdd230/chamber/images/caspcalogo.webp",
           "membership level": "NP Member"
         },
         {
