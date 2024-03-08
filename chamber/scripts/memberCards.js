@@ -6,7 +6,7 @@ const cards = document.querySelector('#member-cards');
 async function getMemberData() {
     const response = await fetch ('https://valraz.github.io/wdd230//chamber/data/members.json');
     const data = await response.json();
-    console.table(data);
+    //console.table(data);//
     displayMembers(data.members);
 }
 
