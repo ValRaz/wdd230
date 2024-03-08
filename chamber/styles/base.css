@@ -582,6 +582,11 @@ fieldset.membership textarea {
     text-shadow: 3px 0px rgba(0, 0, 0, 0.5);
 }
 
+.logos {
+    max-height: 292px;
+    max-width: 127px;
+}
+
 @media screen and (max-width: 700px) {
     
     header {
