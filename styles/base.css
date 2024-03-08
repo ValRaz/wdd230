@@ -190,17 +190,6 @@ nav a{
         padding: 15px;
     }
 
-    footer {
-        color: #75FAA8;
-        font-family: 'Vollkorn', serif;
-        text-align: center;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #03250C;
-    }
-
     footer img {
         width: 15px;
         height: 12px;
