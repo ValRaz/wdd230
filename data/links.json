@@ -17,7 +17,7 @@
             "lesson":"02",
             "links":[
                 {
-                    "url":"lesson02design.html",
+                    "url":"lesson02/design.html",
                     "title":"Design"
                 },
                 {
@@ -30,7 +30,7 @@
             "lesson":"03",
             "links":[
                 {
-                    "url":"/lesson03/Images/combinatorsExercise.png",
+                    "url":"lesson03/images/combinatorsExercise.png",
                     "title":"Combinators Exercise"
                 },
                 {
