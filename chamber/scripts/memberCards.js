@@ -1,5 +1,5 @@
 const baseURL = "https://valraz.github.io/wdd230/";
-const linksURL = "https://valraz.github.io/wdd230/data/members.json";
+const linksURL = "https://valraz.github.io/wdd230/chamber/data/members.json";
 
 const cards = document.querySelector('#cards');
 
