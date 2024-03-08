@@ -542,6 +542,13 @@ fieldset.membership textarea {
     position:fixed;
     bottom: 0;
 }
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
 @media screen and (max-width: 700px) {
     
     header {
