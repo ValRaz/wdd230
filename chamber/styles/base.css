@@ -582,9 +582,9 @@ fieldset.membership textarea {
     text-shadow: 3px 0px rgba(0, 0, 0, 0.5);
 }
 
-.logos {
+.comMembers img {
     max-height: 300px;
-    max-width: 150px;
+    width: 150px;
 }
 
 @media screen and (max-width: 700px) {
