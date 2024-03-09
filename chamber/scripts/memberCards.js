@@ -30,6 +30,7 @@ function displayMembers(members) {
         image.classList.add('logos');
         image.src = member.image;
         image.alt = `${member.name} Image`;
+        image.loading = 'lazy';
 
         const h3 = document.createElement('h3');
         h3.textContent = `Membership Level: ${member['membership level']}`;
