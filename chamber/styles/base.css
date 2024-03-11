@@ -612,7 +612,6 @@ fieldset.membership textarea {
 }
 
 #member-cards.grid .comMembers img {
-    display: block;
     height: 60px;
     width: auto;
 }
