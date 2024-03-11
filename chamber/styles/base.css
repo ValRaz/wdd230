@@ -696,7 +696,7 @@ fieldset.membership textarea {
     .spotlightcard1,
     .spotlightcard2,
     .spotlightcard3 {
-        background-color: #a4E48B;
+        background-color: #75FAA8;
         color: #47095D;
         padding: 20px;
         grid-column: 1/-1;
@@ -706,7 +706,8 @@ fieldset.membership textarea {
     .spotlightcard2,
     .spotlightcard3 {
         margin-bottom: 10px;
-        grid-row: auto; 
+        grid-row: auto;
+        background-color: #75FAA8; 
     }
 
     .container {
