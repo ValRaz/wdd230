@@ -126,7 +126,9 @@ header img {
 .c2a, .current-events {
     grid-column: span 1;
     grid-row: auto;
+    background-color: #75FAA8;
     border: 5px solid #47095D;
+    font-weight: bold;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px; 
@@ -136,12 +138,14 @@ header img {
 .weather-card {
     grid-column: span 2;
     grid-row: auto;
+    background-color: #75FAA8;
     border: 2px solid #47095D;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px; 
     margin-bottom: 20px;
 }
+
 
 .spotlightcard1 img,
 .spotlightcard2 img,
@@ -154,12 +158,18 @@ header img {
 .spotlightcard1, .spotlightcard2, .spotlightcard3 {
     grid-column: span 1;
     grid-row: 3/4;
+    background-color: #75FAA8;
     border: 2px solid #47095D;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-bottom: 20px;
 }
+
+.spotlightcard1 h3,.spotlightcard2 h3,.spotlightcard3 h3 {
+    color: #47095D;
+    font-weight: bold;
+} 
 
 footer {
     background-color: #47095D;
