@@ -116,6 +116,15 @@
                     "title":"Fetch API Activity"
                 }
             ]
+        },
+        {
+            "lesson":"10",
+            "links":[
+                {
+                    "url":"lesson 10/weather.html",
+                    "title":"Weather API fetch activity"
+                }
+            ]
         }
     ]
 }
