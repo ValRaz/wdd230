@@ -125,7 +125,7 @@ header img {
 
 .c2a, .current-events {
     grid-column: span 1;
-    grid-row: auto;
+    grid-row: 2;
     background-color: #75FAA8;
     border: 5px solid #47095D;
     font-weight: bold;
@@ -137,7 +137,7 @@ header img {
 
 .weather-card {
     grid-column: span 2;
-    grid-row: auto;
+    grid-row: 2;
     background-color: #75FAA8;
     border: 2px solid #47095D;
     border-radius: 10px;
@@ -151,9 +151,17 @@ header img {
 .spotlightcard2 img,
 .spotlightcard3 img {
     display: block;
+    padding: 20px;
     margin: 0 auto; 
     max-width: 100%; 
 }
+
+.spotlightcard1 h3,
+.spotlightcard2 h3,
+.spotlightcard3 h3{
+        font-weight: bolder;
+        text-decoration: underline;
+    }
 
 .spotlightcard1, .spotlightcard2, .spotlightcard3 {
     grid-column: span 1;
