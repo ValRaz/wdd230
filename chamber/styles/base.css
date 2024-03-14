@@ -695,8 +695,13 @@ fieldset.membership textarea {
         background-color: #47095D;
     }
 
+
     main {
         padding-top: 20px;
+    }
+
+    .hero {
+        
     }
 
     .c2a,
@@ -711,12 +716,34 @@ fieldset.membership textarea {
         grid-column: 1/-1;
     }
 
-    .spotlightcard1,
-    .spotlightcard2,
-    .spotlightcard3 {
+    .c2a {
+        grid-row: 2;
+    }
+
+    .current-events {
+        grid-row: 3;
+    }
+
+    .weather-card {
+        grid-row: 4;
+    }
+
+    .spotlightcard1 {
+        grid-row: 5;
         margin-bottom: 10px;
         grid-row: auto;
-        background-color: #75FAA8; 
+    }
+
+    .spotlightcard2 {
+        grid-row: 6;
+        margin-bottom: 10px;
+        grid-row: auto;
+    }
+
+    .spotlightcard3 {
+        grid-row: 7;
+        margin-bottom: 10px;
+        grid-row: auto;
     }
 
     .container {
