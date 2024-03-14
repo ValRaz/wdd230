@@ -168,6 +168,7 @@ header img {
     grid-row: 3/4;
     background-color: #75FAA8;
     border: 2px solid #47095D;
+    font-weight: 500;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding: 20px;
