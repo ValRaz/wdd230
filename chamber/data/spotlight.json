@@ -1,0 +1,32 @@
+{
+    "businesses": [
+        {
+            "name": "Boar's Head Resort",
+            "type": "Hotel",
+            "info": "Nestled in the picturesque landscapes of Charlottesville, Virginia, the Boar's Head Resort offers a luxurious retreat amidst nature's beauty. Renowned for its timeless elegance and impeccable service, the resort boasts a myriad of amenities catering to every guest's desires. Guests can indulge in the serene ambiance of the spa, where rejuvenating treatments and massages await, or dive into relaxation at the outdoor pool, surrounded by lush greenery. For the active traveler, there are tennis courts and a fitness center equipped with state-of-the-art equipment. Culinary delights await at the resort's esteemed restaurants, where locally sourced ingredients are transformed into delectable dishes. With its stunning scenery, unparalleled hospitality, and an array of activities, the Boar's Head Resort promises an unforgettable escape for all who visit.",
+            "address": "200 Ednam Drive, Charlottesville VA 22903",
+            "phone number": "(434) 296-2181",
+            "website url": "https://www.boarsheadresort.com/",
+            "image": "https://valraz.github.io/wdd230/chamber/images/boarsheadlogo.webp"
+        },
+        {
+            "name": "The Scrappy Elephant",
+            "type": "Creative Arts and Supplies",
+            "info": "The Scrappy Elephant in Charlottesville, Virginia, is a haven for creativity and sustainability, offering a diverse range of reclaimed and reusable materials donated from local businesses and individuals. From yarn and fabric to colored pencils and specialty crafting supplies, the store provides an ever-changing inventory that sparks inspiration and supports environmental conservation efforts. They also stock sustainable brands for new drawing and painting materials. The Studio offers a welcoming space for individuals of all ages to unleash their creativity, with opportunities for individual studio time, birthday parties, and team-building sessions. With a commitment to making art fun and accessible while promoting eco-conscious practices, The Scrappy Elephant is a vibrant community hub for artistic expression and environmental stewardship.",
+            "address": "1745 Allied St Suite C, Charlottesville VA 22903",
+            "phone number": "(434) 962-6288",
+            "website url": "https://www.scrappyelephant.com/",
+            "image": "https://valraz.github.io/wdd230/chamber/images/scrappyelephantlogo.webp"
+        },
+        {
+            "name": "Charlottesville Albemarle SPCA",
+            "type": "Nonprofit Organization",
+            "info": "The Charlottesville Albemarle SPCA stands as a beacon of hope for animals in need. As the region's leading animal welfare organization, the SPCA is dedicated to rescuing, rehabilitating, and rehoming companion animals while advocating for their welfare. With a compassionate team of staff and volunteers, the organization provides essential services such as medical care, behavioral training, and adoption programs to ensure every animal receives the love and care they deserve. Beyond their rescue efforts, the Charlottesville Albemarle SPCA plays a pivotal role in community outreach and education, raising awareness about responsible pet ownership and the importance of spaying and neutering. Through their unwavering commitment to improving the lives of animals and fostering strong bonds between pets and their human companions, the Charlottesville Albemarle SPCA embodies the spirit of compassion and kindness that defines the Charlottesville community.",
+            "address": "3355 Berkmar Dr, Charlottesville VA 22901",
+            "phone number": "(434) 973-5959",
+            "website url": "https://caspca.org/",
+            "image": "https://valraz.github.io/wdd230/chamber/images/caspcalogo.webp",
+
+        }
+    ]
+}
