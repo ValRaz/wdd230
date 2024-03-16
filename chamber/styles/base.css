@@ -59,30 +59,31 @@ main {
 
 .banner-trans h1 {
     color: #75FAA8;
-    text-shadow: -2px -2px 0 #47095D,
-                  2px -2px 0 #47095D,
-                 -2px  2px 0 #47095D,
-                  2px  2px 0 #47095D;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    text-shadow: -2px -2px 0 #47095D,
+    2px -2px 0 #47095D,
+   -2px  2px 0 #47095D,
+    2px  2px 0 #47095D;
 }
 
-.banner-trans button {
+#dismiss-banner{
+    font-family: 'Volkhorn', serif;
     border: 0;
     background-color: #47095D;
     color: #75FAA8;
     font-size: x-large;
     font-weight: 900;
-    font-family: 'Volkhorn' serif;
     border-radius: 4px;
     transition: all .2s ease;
+}
 
-    &:hover {
+#dismiss-banner :hover{
         background-color: #75FAA8;
         color: #47095D;
         cursor: pointer;
-    }
 }
+
 
 h1{
     font-family: 'Cinzel';
