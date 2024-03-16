@@ -728,19 +728,16 @@ fieldset.membership textarea {
     .spotlightcard1 {
         grid-row: 5;
         margin-bottom: 10px;
-        grid-row: auto;
     }
 
     .spotlightcard2 {
         grid-row: 6;
         margin-bottom: 10px;
-        grid-row: auto;
     }
 
     .spotlightcard3 {
         grid-row: 7;
         margin-bottom: 10px;
-        grid-row: auto;
     }
 
     .container {

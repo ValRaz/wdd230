@@ -63,8 +63,25 @@
         <section class="weather-card">
             <h2>Current Weather</h2>
             <p>Temperature: <img id="weather-icon"><span id="currentTemperature"></span><span id="captionDesc"></span></p>
-            <p>Wind Speed: <span id="currentWindSpeed"></span> mph</p>
-            <p>3 day Forecast: <span id="threeDay"></span></p>
+            <p>3 Day Forecast:</p>
+            <div class="forecast-item">
+                <span id="dateOne"></span>
+                <img id="weather-one">
+                <span id="tempOne"></span>
+                <span id="capOne"></span>
+            </div>
+            <div class="forecast-item">
+                <span id="dateTwo"></span>
+                <img id="weather-two">
+                <span id="tempTwo"></span>
+                <span id="capTwo"></span>
+            </div>
+            <div class="forecast-item">
+                <span id="dateThree"></span>
+                <img id="weather-three">
+                <span id="tempThree"></span>
+                <span id="capThree"></span>
+            </div>
         </section>
 
         <section class="spotlightcard1">
@@ -112,5 +129,5 @@
     <script src="scripts/dmtoggle.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/spotlightCards.js"></script>
-</body>
+    <script src="scripts/forecast.js"></script>
 </html>
