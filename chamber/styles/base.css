@@ -273,9 +273,16 @@ footer {
 .dark-mode .weather-card,
 .dark-mode .spotlightcard1,
 .dark-mode .spotlightcard2,
-.dark-mode .spotlightcard3{
+.dark-mode .spotlightcard3,
+.dark-mode .benefitcard,
+.dark-mode .benefitcard h2,
+.dark-mode .container,
+.dark-mode #discover,
+.dark-mode .imagecard{
     background-color: #000;
     color: #fff;
+    text-decoration: none;
+    text-shadow: none;
 }
 
 .dark-mode-toggle {
