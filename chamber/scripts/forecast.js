@@ -76,7 +76,7 @@ function displayForecastResults(dataForecast) {
         tempElement.innerHTML = `${temperature} °F`;
         iconElement.src = `https://openweathermap.org/img/w/${weatherIcon}.png`;
         iconElement.alt = forecast.weather[0].description;
-        descElement.innerHTML = ` ${description}`;
+        descElement.innerHTML = `, ${description}`;
     }
 }
 
