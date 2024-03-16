@@ -11,7 +11,7 @@ async function apiFetch() {
         if (responseCurrent.ok) {
             const dataCurrent = await responseCurrent.json();
             console.log(dataCurrent); // testing only
-            displayResults(dataCurrent);
+            displayCurrentResults(dataCurrent);
         } else {
             throw new Error(await responseCurrent.text());
         }
@@ -20,7 +20,7 @@ async function apiFetch() {
     }
 }
 
-function displayResults(dataCurrent) {
+function displayCurrentResults(dataCurrent) {
     currentTemp.textContent = `${Math.round(dataCurrent.main.temp)} °F`;
 
     const weatherEvent = dataCurrent.weather[0];

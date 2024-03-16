@@ -20,7 +20,7 @@ async function apiFetchForecast() {
         if (responseForecast.ok) {
             const dataForecast = await responseForecast.json();
             console.log(dataForecast); // testing only
-            displayResults(dataForecast);
+            displayForecastResults(dataForecast);
         } else {
             throw new Error(await responseForecast.text());
         }
@@ -31,58 +31,50 @@ async function apiFetchForecast() {
 
 apiFetchForecast();
 
-function displayResults(dataForecast) {
-    const forecasts = dataForecast.list;
-
-    const filteredForecasts = [];
-const days = new Set(); // To track the unique days
-for (const forecast of forecasts) {
-    const dateTime = forecast.dt_txt.split(' '); // Split date and time
-    const date = new Date(dateTime[0]); // Extract date
-    const time = dateTime[1]; // Extract time
-
-    // Check if it's noon (12:00:00) and if it's a new day
-    if (time.startsWith('12:00:00') && !days.has(date.toDateString())) {
-        filteredForecasts.push(forecast);
-        days.add(date.toDateString()); // Add the day to the set to mark it as processed
+function displayForecastResults(dataForecast) {
+    if (!dataForecast || !dataForecast.list || !Array.isArray(dataForecast.list)) {
+        console.error("Invalid data received:", dataForecast);
+        return;
     }
 
-    // Break if we found forecasts for three days at noon
-    if (filteredForecasts.length === 3) break;
-}
+    const forecasts = dataForecast.list;
+    const filteredForecasts = [];
+    const days = new Set(); // To track the unique days
+
+    for (const forecast of forecasts) {
+        const dateTime = forecast.dt_txt.split(' '); // Split date and time
+        const date = new Date(dateTime[0]); // Extract date
+        const time = dateTime[1]; // Extract time
+
+        // Check if it's noon (12:00:00) and if it's a new day
+        if (time.startsWith('12:00:00') && !days.has(date.toDateString())) {
+            filteredForecasts.push(forecast);
+            days.add(date.toDateString()); // Add the day to the set to mark it as processed
+        }
+
+        // Break if we found forecasts for three days at noon
+        if (filteredForecasts.length === 3) break;
+    }
+
+    // Array of query selectors for date, temperature, weather icon, and description
+    const dateSelectors = [dateOne, dateTwo, dateThree];
+    const tempSelectors = [tempOne, tempTwo, tempThree];
+    const iconSelectors = [iconOne, iconTwo, iconThree];
+    const capSelectors = [capOne, capTwo, capThree];
 
     for (let i = 0; i < filteredForecasts.length; i++) {
         const forecast = filteredForecasts[i];
-
         const date = new Date(forecast.dt_txt);
         const formattedDate = formatDateMMDD(date);
         const weatherIcon = forecast.weather[0].icon;
         const temperature = `${Math.round(forecast.main.temp)}`;
         const description = forecast.weather[0].description;
 
-        let dateElement, tempElement, iconElement, descElement;
-        switch (i) {
-            case 0:
-                dateElement = dateOne;
-                tempElement = tempOne;
-                iconElement = iconOne;
-                descElement = capOne;
-                break;
-            case 1:
-                dateElement = dateTwo;
-                tempElement = tempTwo;
-                iconElement = iconTwo;
-                descElement = capTwo;
-                break;
-            case 2:
-                dateElement = dateThree;
-                tempElement = tempThree;
-                iconElement = iconThree;
-                descElement = capThree;
-                break;
-            default:
-                break;
-        }
+        // Accessing elements directly by their selectors
+        const dateElement = dateSelectors[i];
+        const tempElement = tempSelectors[i];
+        const iconElement = iconSelectors[i];
+        const descElement = capSelectors[i];
 
         dateElement.innerHTML = formattedDate;
         tempElement.innerHTML = `${temperature} °F`;
@@ -97,5 +89,3 @@ function formatDateMMDD(date) {
     const day = date.getDate();
     return `${month}/${day}`;
 }
-
-apiFetchForecast();
