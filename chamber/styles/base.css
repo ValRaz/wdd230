@@ -37,6 +37,53 @@ main {
     grid-gap: 20px;
 }
 
+.banner-trans {
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 1.5em;
+    color: #75FAA8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    border: 10px transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+}
+
+.banner-trans h1 {
+    color: #75FAA8;
+    text-shadow: -2px -2px 0 #47095D,
+                  2px -2px 0 #47095D,
+                 -2px  2px 0 #47095D,
+                  2px  2px 0 #47095D;
+    font-family: Raleway sans-serif;
+    font-weight: bolder;
+}
+
+.banner-trans button {
+    border: 0;
+    background-color: #47095D;
+    color: #75FAA8;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: Volkhorn serif;
+    border-radius: 4px;
+    transition: all .2s ease;
+
+    &:hover {
+        background-color: #75FAA8;
+        color: #47095D;
+        cursor: pointer;
+    }
+}
+
 h1{
     font-family: 'Cinzel';
     font-size: 50px;
@@ -704,6 +751,10 @@ fieldset.membership textarea {
 
     main {
         padding-top: 20px;
+    }
+
+    .banner-trans {
+        flex-direction: column-reverse;
     }
 
     .c2a,
