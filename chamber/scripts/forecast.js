@@ -39,24 +39,21 @@ function displayForecastResults(dataForecast) {
 
     const forecasts = dataForecast.list;
     const filteredForecasts = [];
-    const days = new Set(); // To track the unique days
+    const days = new Set();
 
     for (const forecast of forecasts) {
-        const dateTime = forecast.dt_txt.split(' '); // Split date and time
-        const date = new Date(dateTime[0]); // Extract date
-        const time = dateTime[1]; // Extract time
+        const dateTime = forecast.dt_txt.split(' ');
+        const date = new Date(dateTime[0]);
+        const time = dateTime[1];
 
-        // Check if it's noon (12:00:00) and if it's a new day
         if (time.startsWith('12:00:00') && !days.has(date.toDateString())) {
             filteredForecasts.push(forecast);
-            days.add(date.toDateString()); // Add the day to the set to mark it as processed
+            days.add(date.toDateString());
         }
 
-        // Break if we found forecasts for three days at noon
         if (filteredForecasts.length === 3) break;
     }
 
-    // Array of query selectors for date, temperature, weather icon, and description
     const dateSelectors = [dateOne, dateTwo, dateThree];
     const tempSelectors = [tempOne, tempTwo, tempThree];
     const iconSelectors = [iconOne, iconTwo, iconThree];
@@ -70,7 +67,6 @@ function displayForecastResults(dataForecast) {
         const temperature = `${Math.round(forecast.main.temp)}`;
         const description = forecast.weather[0].description;
 
-        // Accessing elements directly by their selectors
         const dateElement = dateSelectors[i];
         const tempElement = tempSelectors[i];
         const iconElement = iconSelectors[i];
