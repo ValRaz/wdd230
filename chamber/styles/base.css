@@ -63,7 +63,7 @@ main {
                   2px -2px 0 #47095D,
                  -2px  2px 0 #47095D,
                   2px  2px 0 #47095D;
-    font-family: Raleway sans-serif;
+    font-family: 'Raleway' sans-serif;
     font-weight: bolder;
 }
 
@@ -73,7 +73,7 @@ main {
     color: #75FAA8;
     font-size: x-large;
     font-weight: 900;
-    font-family: Volkhorn serif;
+    font-family: 'Volkhorn' serif;
     border-radius: 4px;
     transition: all .2s ease;
 
