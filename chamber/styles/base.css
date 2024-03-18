@@ -352,10 +352,11 @@ footer {
 #discover{
     background-color: #a4E48B;
     color: #47095D;
-    padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagecard {
@@ -363,14 +364,13 @@ footer {
     text-align: center;
     align-items: center;
     margin: 10px;
-    padding: 0;
     width: 100%;
     max-width: 600px;
     overflow: hidden;
 }
 
 .imagecard picture {
-    display: grid;
+    display:block;
     max-width: 100%;
     height: auto;
     transition: transform 0.3s; 
