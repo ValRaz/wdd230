@@ -1,6 +1,6 @@
 :root {
     --primary-color: #451B88;
-    --secondary-color: #a6d3f0;
+    --secondary-color: #b5dfa4;
 }
 
 body {
@@ -29,7 +29,7 @@ input[type="checkbox"]:checked + .dark-mode-toggle::after {
 }
 
 main {
-    background-color: #a4E48B;
+    background-color: #b5dfa4;
     color: #47095D;
     padding: 20px;
 }
@@ -112,7 +112,7 @@ header img {
 .navigation {
     font-family: 'Cinzel', serif;
     background-color: #47095D;
-    color: #A4E48B;
+    color: #b5dfa4;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -137,21 +137,23 @@ header img {
 
 .navigation li a {
     display: block;
-    color: #A4E48B;
+    color: #b5dfa4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navigation li a:hover {
-    background-color: #A4E48B;
+    font-weight: 600;
+    background-color: #b5dfa4;
     color: #47095D;
 }
 
 .navigation a.active {
+    font-weight: 600;
     text-decoration: underline;
     color: #47095D;
-    background-color: #A4E48B;
+    background-color: #b5dfa4;
 }
 
 .hero {
@@ -279,13 +281,16 @@ footer {
 .dark-mode .spotlightcard1,
 .dark-mode .spotlightcard2,
 .dark-mode .spotlightcard3,
+.dark-mode #directory,
 .dark-mode .benefitcard,
 .dark-mode .benefitcard h2,
 .dark-mode .container,
 .dark-mode #discover,
-.dark-mode .imagecard{
+.dark-mode .imagecard,
+.dark-mode #userForm,
+.dark-mode #userForm label {
     background-color: #000;
-    color: #fff;
+    color: #aaf7c7;
     text-decoration: none;
     text-shadow: none;
 }
@@ -338,7 +343,7 @@ footer {
 
 .sidebar {
     background-color: #47095D;
-    color: #A4E48B;
+    color: #b5dfa4;
     padding: 20px;
 }
 
@@ -347,15 +352,15 @@ footer {
 }
 
 .sidebar h2, h3 {
-    color: #A4E48B;
+    color: #b5dfa4;
 }
 
 .sidebar a {
-    color: #A4E48B;
+    color: #b5dfa4;
 }
 
 #discover{
-    background-color: #a4E48B;
+    background-color: #b5dfa4;
     color: #47095D;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -410,7 +415,7 @@ footer {
 }
 
 .visits,.demographics,.events,.attractions{
-    border: 2px solid #A4E48B;
+    border: 2px solid #b5dfa4;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -607,7 +612,7 @@ fieldset.membership textarea {
 
 .submit:hover {
     font-weight: bold;
-    background-color: #A4E48B;
+    background-color: #b5dfa4;
     color: var(--primary-color)
 }
 
@@ -651,11 +656,11 @@ fieldset.membership textarea {
 }
 
 .comMembers a {
-    color: #A4E48B;
+    color: #b5dfa4;
 }
 
 .comMembers h2 {
-    color: #A4E48B;
+    color: #b5dfa4;
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -758,7 +763,7 @@ fieldset.membership textarea {
     .navigation.open ul li a {
         padding: 10px;
         display: block;
-        color: #A4E48B;
+        color: #b5dfa4;
         background-color: #47095D;
     }
 
@@ -805,7 +810,7 @@ fieldset.membership textarea {
 
     .sidebar {
         background-color: #47095D;
-        color: #A4E48B;
+        color: #b5dfa4;
         grid-row: auto; 
         grid-column: auto; 
         padding: 10px;
