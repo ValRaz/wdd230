@@ -178,9 +178,9 @@ header img {
 .c2a, .current-events {
     grid-column: span 1;
     grid-row: 2;
-    background-color: #75FAA8;
+    background-color: #aaf7c7;
     border: 5px solid #47095D;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px; 
@@ -190,7 +190,8 @@ header img {
 .weather-card {
     grid-column: span 2;
     grid-row: 2;
-    background-color: #75FAA8;
+    font-weight: 600;
+    background-color: #aaf7c7;
     border: 2px solid #47095D;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -218,7 +219,7 @@ header img {
 }
 
 .spotlightcard h3 {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: larger;
     text-decoration: underline;
     color: #47095D;
@@ -226,9 +227,9 @@ header img {
 
 .spotlightcard{
     width: 100%;
-    background-color: #75FAA8;
+    background-color: #aaf7c7;
     border: 2px solid #47095D;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     align-items: center;
     border-radius: 15px;
@@ -434,7 +435,7 @@ footer {
 }
 
 .benefitcard {
-    background-color: #75FAA8;
+    background-color: #aaf7c7;
     margin: 20px;
     border: 2px solid #47095D;
     border-radius: 15px;
@@ -490,7 +491,7 @@ footer {
 }
 
 form {
-    background-color: #75FAA8;
+    background-color: #aaf7c7;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px;
@@ -499,7 +500,7 @@ form {
 fieldset {
     margin: 20px;
     border: none;
-    border: 3px solid #75FAA8;
+    border: 3px solid #aaf7c7;
     border-radius: 3px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
     padding: 20px;
@@ -544,7 +545,7 @@ label {
 fieldset.membership {
     margin: 20px;
     border: none;
-    border: 3px solid #75FAA8;
+    border: 3px solid #aaf7c7;
     border-radius: 3px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
     padding: 20px;
@@ -613,7 +614,7 @@ fieldset.membership textarea {
 #tyfoot {
     width: 100%;
     display: flex;
-    color: #75FAA8;
+    color: #aaf7c7;
     background-color: #03250C;
     text-align: center;
     padding: 20px;
@@ -629,7 +630,7 @@ fieldset.membership textarea {
 
 #member-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 20px;
     align-items: center;
     padding: 20px;
@@ -641,7 +642,7 @@ fieldset.membership textarea {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #47095D;
-    color: #75FAA8;
+    color: #aaf7c7;
     justify-content: center;
     text-align: center;
     max-width: 500px;
@@ -681,7 +682,7 @@ fieldset.membership textarea {
 
 #grid, #list {
     background-color: #47095D;
-    color: #75FAA8;
+    color: #aaf7c7;
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
@@ -691,7 +692,8 @@ fieldset.membership textarea {
 }
 
 #grid:hover, #list:hover {
-    background-color: #75FAA8;
+    font-weight: bold;
+    background-color: #aaf7c7;
     color: #47095D;
 }
 
@@ -773,7 +775,7 @@ fieldset.membership textarea {
     .current-events,
     .weather-card,
     .spotlightcard {
-        background-color: #75FAA8;
+        background-color: #aaf7c7;
         color: #47095D;
         padding: 20px;
         grid-column: 1/-1;
