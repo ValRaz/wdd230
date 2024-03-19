@@ -284,13 +284,17 @@ footer {
 .dark-mode .benefitcard h2,
 .dark-mode .container,
 .dark-mode #discover,
-.dark-mode .imagecard,
 .dark-mode #userForm,
 .dark-mode #userForm label {
     background-color: #000;
     color: #aaf7c7;
     text-decoration: none;
     text-shadow: none;
+}
+
+.darkmode .imagelabel,
+.dark-mode .imagecard{
+    color: #47095D;
 }
 
 .dark-mode-toggle {
