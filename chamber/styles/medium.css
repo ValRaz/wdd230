@@ -28,15 +28,12 @@
     .c2a,
     .current-events,
     .weather-card,
-    .spotlightcard1,
-    .spotlightcard2,
-    .spotlightcard3 {
+    .spotlightcard {
         padding: 30px;
     }
 
-    .spotlightcard1,
-    .spotlightcard2,
-    .spotlightcard3 {
+    .spotlightcard {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin-bottom: 30px;
     }
 

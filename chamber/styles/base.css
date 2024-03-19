@@ -32,9 +32,6 @@ main {
     background-color: #a4E48B;
     color: #47095D;
     padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
 }
 
 .banner-trans {
@@ -171,6 +168,13 @@ header img {
     max-width: 100%; 
 }
 
+.above-fold {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
 .c2a, .current-events {
     grid-column: span 1;
     grid-row: 2;
@@ -199,38 +203,37 @@ header img {
     text-decoration: underline;
 }
 
+.spotlight-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
 
-.spotlightcard1 img,
-.spotlightcard2 img,
-.spotlightcard3 img {
+.spotlightcard img {
     display: block;
     padding: 20px;
     margin: 0 auto; 
     max-width: 100%; 
 }
 
-.spotlightcard1 h3,
-.spotlightcard2 h3,
-.spotlightcard3 h3{
-        font-weight: bolder;
-        text-decoration: underline;
-    }
+.spotlightcard h3 {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #47095D;
+}
 
-.spotlightcard1, .spotlightcard2, .spotlightcard3 {
-    grid-column: span 1;
-    grid-row: 3/4;
+.spotlightcard{
+    width: 100%;
     background-color: #75FAA8;
     border: 2px solid #47095D;
     font-weight: 500;
+    text-align: center;
+    align-items: center;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-bottom: 20px;
-}
-
-.spotlightcard1 h3,.spotlightcard2 h3,.spotlightcard3 h3 {
-    color: #47095D;
-    font-weight: bold;
 } 
 
 footer {
@@ -768,9 +771,7 @@ fieldset.membership textarea {
     .c2a,
     .current-events,
     .weather-card,
-    .spotlightcard1,
-    .spotlightcard2,
-    .spotlightcard3 {
+    .spotlightcard {
         background-color: #75FAA8;
         color: #47095D;
         padding: 20px;
@@ -789,18 +790,8 @@ fieldset.membership textarea {
         grid-row: 4;
     }
 
-    .spotlightcard1 {
-        grid-row: 5;
-        margin-bottom: 10px;
-    }
-
-    .spotlightcard2 {
-        grid-row: 6;
-        margin-bottom: 10px;
-    }
-
-    .spotlightcard3 {
-        grid-row: 7;
+    .spotlightcard {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin-bottom: 10px;
     }
 
