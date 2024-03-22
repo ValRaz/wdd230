@@ -47,27 +47,27 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.red-color-card {
-    background-color: ;
-    color: ;
+.bright-blue-color-card {
+    background-color: #AEFFDE;
+    color: #333;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.jasmine-color-card {
-    background-color: ;
-    color: ;
+.black-color-card {
+    background-color:#333;
+    color: #CDCCE8;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.purple-color-card {
-    background-color: ;
-    color: ;
+.light-lavender-color-card {
+    background-color: #CDCCE8;
+    color:#333;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
