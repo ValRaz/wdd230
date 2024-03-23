@@ -8,7 +8,10 @@ async function getSpotlightData() {
     
     // Filter gold and silver members
     const goldMembers = members.filter(member => member.membershiplevel === "Gold Member").slice(0, 2);
-    const silverMember = members.find(member => member.membershiplevel === "Silver Member");
+    const silverMembers = members.filter(member => member.membershiplevel === "Silver Member");
+
+    // Select the first silver member
+    const silverMember = silverMembers[0];
 
     // Combine gold and silver members into a single array
     const spotlightMembers = [...goldMembers, silverMember].filter(Boolean); // Filter out any undefined values
