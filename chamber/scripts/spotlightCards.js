@@ -1,22 +1,29 @@
 const baseURL = "https://valraz.github.io/wdd230/";
-const linksURL = "https://valraz.github.io/wdd230/chamber/data/spotlight.json";
+const linksURL = "https://valraz.github.io/wdd230/chamber/data/members.json";
 
 async function getSpotlightData() {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    const members = data.members;
-    
-    // Filter gold and silver members
-    const goldMembers = members.filter(member => member.membershiplevel === "Gold Member").slice(0, 2);
-    const silverMembers = members.filter(member => member.membershiplevel === "Silver Member");
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        
+        if (data && data.members) {
+            const members = data.members;
+            
+            const goldMembers = members.filter(member => member.membershiplevel === "Gold Member").slice(0, 2);
+            const silverMembers = members.filter(member => member.membershiplevel === "Silver Member");
 
-    // Select the first silver member
-    const silverMember = silverMembers[0];
+            const silverMember = silverMembers[0];
 
-    // Combine gold and silver members into a single array
-    const spotlightMembers = [...goldMembers, silverMember].filter(Boolean); // Filter out any undefined values
+            const spotlightMembers = [...goldMembers, silverMember].filter(Boolean);
 
-    return spotlightMembers;
+            return spotlightMembers;
+        } else {
+            throw new Error("No 'members' array found in JSON data");
+        }
+    } catch (error) {
+        console.error("Error fetching and processing spotlight data:", error);
+        return [];
+    }
 }
 
 function displaySpot(businesses) {
