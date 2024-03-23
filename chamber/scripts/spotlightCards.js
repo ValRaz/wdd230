@@ -4,11 +4,20 @@ const linksURL = "https://valraz.github.io/wdd230/chamber/data/spotlight.json";
 async function getSpotlightData() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    return data.businesses;
+    const members = data.members;
+    
+    // Filter gold and silver members
+    const goldMembers = members.filter(member => member.membershiplevel === "Gold Member").slice(0, 2);
+    const silverMember = members.find(member => member.membershiplevel === "Silver Member");
+
+    // Combine gold and silver members into a single array
+    const spotlightMembers = [...goldMembers, silverMember].filter(Boolean); // Filter out any undefined values
+
+    return spotlightMembers;
 }
 
 function displaySpot(businesses) {
-    const spotlightCards = document.querySelectorAll("[class^='spotlightcard']");
+    const spotlightCards = document.querySelectorAll(".spotlightcard");
 
     spotlightCards.forEach((card, index) => {
         const business = businesses[index];
@@ -16,11 +25,15 @@ function displaySpot(businesses) {
         const heading = card.querySelector("h3");
         const paragraph = card.querySelector("p");
         const image = card.querySelector("img");
+        const level = card.querySelector(".level");
 
-        heading.textContent = business.name;
-        paragraph.textContent = business.info;
-        image.src = business.image;
-        image.alt = business.name.toLowerCase().replace(/['"\s]/g, '');
+        if (business) {
+            heading.textContent = business.name;
+            level.textContent = business.membershiplevel;
+            paragraph.textContent = `${business.type}\n${business.address}\n${business["phone number"]}`;
+            image.src = business.image;
+            image.alt = business.name.toLowerCase().replace(/['"\s]/g, '');
+        }
     });
 }
 
