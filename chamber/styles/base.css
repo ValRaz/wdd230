@@ -237,11 +237,21 @@ header img {
     max-width: 100%; 
 }
 
-.spotlightcard h3 {
+.spotlightcard h2 {
     font-weight: bolder;
     font-size: x-large;
     text-decoration: underline;
     color: #47095D;
+}
+
+.spotlightcard h3 {
+    font-weight: bolder;
+    color: #47095D;    
+}
+.spotlightcard h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: #47095D;    
 }
 
 .spotlightcard{

@@ -32,15 +32,17 @@ function displaySpot(businesses) {
     spotlightCards.forEach((card, index) => {
         const business = businesses[index];
 
-        const heading = card.querySelector("h3");
+        const heading = card.querySelector("h2");
         const paragraph = card.querySelector("p");
         const image = card.querySelector("img");
         const level = card.querySelector(".level");
+        const type = card.querySelector("h4");
 
         if (business) {
             heading.textContent = business.name;
             level.textContent = business.membershiplevel;
-            paragraph.textContent = `${business.type}\n${business.address}\n${business["phone number"]}`;
+            type.textContent = business.type;
+            paragraph.textContent = `${business.address}\n${business["phone number"]}\n${business.info}`;
             image.src = business.image;
             image.alt = business.name.toLowerCase().replace(/['"\s]/g, '');
         }
