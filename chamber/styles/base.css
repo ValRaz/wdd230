@@ -182,17 +182,26 @@ header img {
     grid-column: span 1;
     grid-row: 2;
     background-color: #aaf7c7;
-    border: 5px solid #47095D;
+    text-align: center;
     font-weight: bolder;
+    border: 5px solid #47095D;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px; 
     margin-bottom: 20px;
 }
 
+.c2a {
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+
 .weather-card {
     grid-column: span 2;
     grid-row: 2;
+    text-align: center;
     font-weight: 600;
     background-color: #aaf7c7;
     border: 2px solid #47095D;
