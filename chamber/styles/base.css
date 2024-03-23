@@ -455,9 +455,6 @@ footer {
 
 .benefitcard {
     grid-column: 2;
-}
-
-.benefitcard {
     background-color: #aaf7c7;
     margin: 20px;
     border: 2px solid #47095D;
@@ -478,6 +475,9 @@ footer {
                   1px -1px 0 #fff,
                  -1px  1px 0 #fff,
                   1px  1px 0 #fff;
+}
+.benefitcard p {
+    font-weight: 600;
 }
 
 .benefitcard ul {
