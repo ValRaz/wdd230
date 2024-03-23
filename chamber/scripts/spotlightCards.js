@@ -33,7 +33,7 @@ function displaySpot(businesses) {
         const business = businesses[index];
 
         const heading = card.querySelector("h2");
-        const paragraph = card.querySelector("p");
+        const paragraph = card.querySelector(".info");
         const image = card.querySelector("img");
         const level = card.querySelector(".level");
         const type = card.querySelector("h4");
