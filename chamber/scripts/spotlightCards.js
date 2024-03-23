@@ -42,7 +42,7 @@ function displaySpot(businesses) {
             heading.textContent = business.name;
             level.textContent = business.membershiplevel;
             type.textContent = business.type;
-            paragraph.textContent = `${business.address}\n${business["phone number"]}\n${business.info}`;
+            paragraph.textContent = `${business.address}\n${business["phone number"]}`;
             image.src = business.image;
             image.alt = business.name.toLowerCase().replace(/['"\s]/g, '');
         }
