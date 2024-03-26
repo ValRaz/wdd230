@@ -6,26 +6,81 @@
     <title>Scoots Website</title>
     <meta name="description" content="Final project for WDD 230 Scoots rental website">
     <meta name="author" content="Valerie Rasmussen">
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:title" content="Scoots Rentals" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valraz.github.io/wdd230/scootsFinalProject/index.html" />
     <meta property="og:image" content="" />
-    <link rel="icon" href="">
-    <link href="" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
 <header>
-
+    <div class="logo"><img src="images/scootsLogo.webp" alt="Scoots small logo"loading="lazy" width="150" height="150"></div>
+    <h1>Scoot's Rentals</h1>
+    <div class="toggle-wrapper">
+        <input type="checkbox" id="darkModeToggle">
+        <label for="darkModeToggle" class="dark-mode-toggle"></label>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="rentals.html">Rentals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
 <main>
+    <section class="hero">
+        <picture>
+            <source srcset="images/scootsHeroSmall.webp" media="(max-width: 600px)">
+            <source srcset="images/scootsHeroMed.webp" media="(max-width: 1200px)">   
+            <img src="images/scootsHeroLarge.webp" alt="scoots large hero image" width="1600" height="900">
+        </picture>    
+        <h1>Welcome to Scoots!</h1>
+    </section>
+
+    <section class="c2a">
+        <h1>Book your rental Today!</h1>
+        <a href="rentals.html" class="btn">View Rentals</a>
+    </section>
+
+    <section class="rental-info">
+        <h2>Rental Information</h2>
+        <div class="rental-card">
+            <h3>Honda Motor Scooters</h3>
+            <p>Explore Cozumel effortlessly with our range of Honda motor scooters, perfect for solo adventurers or couples looking to explore the island's hidden gems.</p>
+        </div>
+        <div class="rental-card">
+            <h3>Side-by-Side ATVs</h3>
+            <p>Embark on an off-road adventure with our Honda Pioneer 1000 side-by-side ATVs, capable of accommodating up to four passengers for a thrilling island exploration experience.</p>
+        </div>
+        <div class="rental-card">
+            <h3>Jeeps</h3>
+            <p>Experience ultimate freedom and flexibility with our Jeep Wrangler rentals, ideal for exploring Cozumel's rugged terrain and scenic coastal roads.</p>
+        </div>
+    </section>
+
+    <section class="weather">
+        <h2>Weather Information</h2>
+        <div id="weather-info">
+            dynamic weather info
+        </div>
+    </section>
 
 </main>
 
 <footer>
-    
+    <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+    </ul>
+    <p>&copy; 2024 Valerie Rasmussen - WDD230.</p>
 </footer>
 </body>
 </html>

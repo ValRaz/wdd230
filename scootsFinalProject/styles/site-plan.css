@@ -1,13 +1,13 @@
 body {
     background-color: #043638;
-    color: #f9cebe;
+    color: #fde8cf;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #3b224e;
-    color: #7ad07c;
+    background-color: #2a203f;
+    color: #bfffff;
     padding: 20px;
     text-align: center;
 }
@@ -47,8 +47,8 @@ ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.green-color-card {
-    background-color: #7ad07c;
+.blue-color-card {
+    background-color: #bfffff;
     color: #3b224e;
     border: 2px solid #000;
     border-radius: 10px;
@@ -68,7 +68,7 @@ ul {
 }
 
 .sand-color-card {
-    background-color: #f9cebe;
+    background-color: #fde8cf;
     color:#1565C0;
     border: 2px solid #000;
     border-radius: 10px;
@@ -78,7 +78,7 @@ ul {
 }
 
 .purple-color-card {
-    background-color: #3b224e;
+    background-color: #2a203f;
     color:#f9cebe;
     border: 2px solid #000;
     border-radius: 10px;
