@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+header {
+    font-weight: 600;
+    background-color: #2a203f;
+    color: #bfffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    font-family: 'Lora', serif;
+    background-color: #2a203f;
+    color: #fde8cf;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation ul {
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navigation li {
+    flex: 1;
+    text-align: center;
+}
+
+.navigation li a {
+    display: block;
+    background-color: #bfffff;
+    color: #043638;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    font-weight: 600;
+    background-color: #bfffff;
+    color: #2a203f;
+}
+
+.navigation a.active {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #bfffff;
+    background-color: #043638;
+}
+
+main {
+    background-color: #043638;
+    color: #fde8cf;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    grid-column: 1 / -1;
+    overflow: hidden;
+}
+
+.hero h1 {
+    position: absolute;
+    z-index: 9999;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #2a203f;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+.c2a {
+    text-align: center;
+    margin: 20px;
+    padding: 20px; 
+    grid-column: 1 / -1; 
+}
+
+.c2a h1 {
+    font-size: 35px;
+    color: #bfffff;
+}
+
+.weather {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.rental-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.rental-info h2 {
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.rental-card {
+    text-align: center;
+    align-items: center;
+    background-color: #fde8cf;
+    color: #043638;
+    border: 5px solid #bfffff;
+    box-shadow: 0 0 10px #bfffff;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.map {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-weight: 600;
+    background-color: #2a203f;
+    color: #bfffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
