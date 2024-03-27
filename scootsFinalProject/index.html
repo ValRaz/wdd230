@@ -22,7 +22,7 @@
     <div class="logo"><img src="images/scootsLogo.webp" alt="Scoots small logo"loading="lazy" width="150" height="150"></div>
     <h1>Scoot's Rentals</h1>
     <div class="toggle-wrapper">
-        <input type="checkbox" id="darkModeToggle">
+        <input type="range" id="darkModeToggle" min="0" max="1" step="1">
         <label for="darkModeToggle" class="dark-mode-toggle"></label>
 </header>
 
@@ -38,30 +38,32 @@
 <main>
     <section class="hero">
         <picture>
-            <source srcset="images/scootsHeroSmall.webp" media="(max-width: 600px)">
-            <source srcset="images/scootsHeroMed.webp" media="(max-width: 1200px)">   
-            <img src="images/scootsHeroLarge.webp" alt="scoots large hero image" width="1600" height="900">
+            <source srcset="images/scootsHeroSmall.webp" media="(max-width: 600px)" loading="lazy">
+            <source srcset="images/scootsHeroMed.webp" media="(max-width: 1200px)" loading="lazy">   
+            <img src="images/scootsHeroLarge.webp" alt="scoots large hero image" width="1600" height="900" loading="lazy">
         </picture>    
         <h1>Bienvenidos a Scoots!</h1>
     </section>
 
     <section class="c2a">
-        <a href="rentals.html" class="call-link"><h1>Book your rental Today!</h1></a>   
+        <a href="rentals.html" class="call-link"><h1>Book your rental Today</h1></a>   
     </section>
 
     <section class="rental-info">
         <h2>Rental Information</h2>
-        <div class="rental-card">
-            <h3>Honda Motor Scooters</h3>
-            <p>Explore Cozumel effortlessly with our range of Honda motor scooters, perfect for solo adventurers or couples looking to explore the island's hidden gems.</p>
-        </div>
-        <div class="rental-card">
-            <h3>Side-by-Side ATVs</h3>
-            <p>Embark on an off-road adventure with our Honda Pioneer 1000 side-by-side ATVs, capable of accommodating up to four passengers for a thrilling island exploration experience.</p>
-        </div>
-        <div class="rental-card">
-            <h3>Jeeps</h3>
-            <p>Experience ultimate freedom and flexibility with our Jeep Wrangler rentals, ideal for exploring Cozumel's rugged terrain and scenic coastal roads.</p>
+        <div class="rental-cards-container">
+            <div class="rental-card">
+                <h3>Honda Motor Scooters</h3>
+                <p>Explore Cozumel effortlessly with our range of Honda motor scooters, perfect for solo adventurers or couples looking to explore the island's hidden gems.</p>
+            </div>
+            <div class="rental-card">
+                <h3>Side-by-Side ATVs</h3>
+                <p>Embark on an off-road adventure with our Honda Pioneer 1000 side-by-side ATVs, capable of accommodating up to four passengers for a thrilling island exploration experience.</p>
+            </div>
+            <div class="rental-card">
+                <h3>Jeeps</h3>
+                <p>Experience ultimate freedom and flexibility with our Jeep Wrangler rentals, ideal for exploring Cozumel's rugged terrain and scenic coastal roads.</p>
+            </div>
         </div>
     </section>
 
@@ -81,10 +83,11 @@
 </main>
 
 <footer>
+    <p>Scoot's Rentals<br>C. 5 Sur/ km 4.5 Av Claudio Canto, Cozumel Mexico <br>987-652-7618</p>
     <ul class="social-links">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
+        <li><a href="https://www.facebook.com/"><img src="images/fbicon.webp" alt= "facebook icon" loading="lazy"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="images/instaicon.webp" alt= "instagram icon" loading="lazy"></a></li>
+        <li><a href="https://www.threads.net/login"><img src="images/threadsicon.webp" alt="threads icon" loading="lazy"></a></li>
     </ul>
     <p>&copy; 2024 Valerie Rasmussen - WDD230.</p>
 </footer>

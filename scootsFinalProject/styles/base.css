@@ -12,7 +12,53 @@ header {
     color: #bfffff;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.toggle-wrapper {
+    position: relative;
+}
+
+.toggle-wrapper input[type="range"] {
+    -webkit-appearance: none;
+    width: 50px;
+    height: 25px;
+    background: #777;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: absolute;
+    right: 0;
+}
+
+.toggle-wrapper input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #bfffff;
+    cursor: pointer;
+}
+
+.toggle-wrapper input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #bfffff;
+    cursor: pointer;
 }
 
 .navigation {
@@ -87,7 +133,8 @@ main {
     font-size: 50px;
     font-weight: 900;
     text-align: center;
-    color: #2a203f;
+    color: #fde8cf;
+    text-shadow: 3px 3px 0px #043638;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
@@ -109,8 +156,13 @@ main {
 }
 
 .c2a h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: #bfffff;
+    background-color: #2a203f;
+    border: 5px solid #043638;
+    box-shadow: 0 0 10px #bfffff;
+    padding: 20px;
+    margin: 10px;
 }
 
 .weather {
@@ -118,12 +170,16 @@ main {
     margin: 20px auto;
 }
 
-.rental-info {
+.rental-cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    margin: 20px;
     justify-content: center;
-    align-items: stretch;
+}
+
+.rental-info {
+    justify-content: center;
     text-align: center;
 }
 
@@ -137,14 +193,23 @@ main {
     align-items: center;
     background-color: #fde8cf;
     color: #043638;
-    border: 5px solid #bfffff;
+    border: 5px solid #2a203f;
     box-shadow: 0 0 10px #bfffff;
     max-width: 600px;
     padding: 20px;
-    margin: auto;
+    margin: 10px;
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 20px;
 }
 
 .map {
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
@@ -156,4 +221,21 @@ footer {
     padding: 10px 20px;
     display: flex;
     justify-content: space-around;
+}
+
+footer ul {
+    font-size: 20px;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer ul img {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
 }
