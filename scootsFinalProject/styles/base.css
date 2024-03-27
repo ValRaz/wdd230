@@ -152,7 +152,10 @@ main {
     text-align: center;
     margin: 20px;
     padding: 20px; 
-    grid-column: 1 / -1; 
+    grid-column: 1 / -1;
+}
+.c2a a {
+    text-decoration: none;
 }
 
 .c2a h1 {
