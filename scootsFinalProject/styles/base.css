@@ -62,6 +62,38 @@ header h1 {
     cursor: pointer;
 }
 
+.dark-mode body,
+.dark-mode main,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode .hero,
+.dark-mode .c2a,
+.dark-mode .navigation,
+.dark-mode .rental-cards-container,
+.dark-mode .rental-card,
+.dark-mode .weather {
+    background-color: #000;
+    color: #fde8cf;
+    text-decoration: none;
+}
+
+.dark-mode .navigation ul li a {
+    color: #bfffff;
+    background-color: #000;
+}
+
+.dark-mode .navigation li a:hover {
+    color: #bfffff;
+    background-color: #043638;
+}
+
+.dark-mode .navigation a.active {
+    text-decoration: underline;
+}
+
 .navigation {
     font-family: 'Lora', serif;
     background-color: #2a203f;
