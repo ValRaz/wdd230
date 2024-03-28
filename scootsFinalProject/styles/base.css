@@ -154,7 +154,7 @@ main {
     position: relative;
 }
 
-.hero h1 {
+.hero h2 {
     position: absolute;
     z-index: 9999;
     font-size: 50px;
@@ -185,7 +185,7 @@ main {
     text-decoration: none;
 }
 
-.c2a h1 {
+.c2a h2 {
     font-size: 40px;
     color: #bfffff;
     background-color: #2a203f;
