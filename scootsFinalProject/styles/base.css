@@ -210,13 +210,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Adjust the gap between elements as needed */
+    gap: 20px;
 }
 
 #weather-info > p {
-    flex: 1; /* Allow elements to grow and shrink equally */
-    max-width: calc(50% - 20px); /* Set a maximum width for each element */
-    text-align: left; /* Align text to the left within each paragraph */
+    flex: 1;
+    max-width: calc(50% - 20px);
+    text-align: left;
 }
 
 .rental-cards-container {
