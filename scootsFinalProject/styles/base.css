@@ -200,6 +200,25 @@ main {
     margin: 20px auto;
 }
 
+.weather {
+    text-align: center;
+    margin: 20px auto;
+    margin: 20px;
+}
+
+#weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between elements as needed */
+}
+
+#weather-info > p {
+    flex: 1; /* Allow elements to grow and shrink equally */
+    max-width: calc(50% - 20px); /* Set a maximum width for each element */
+    text-align: left; /* Align text to the left within each paragraph */
+}
+
 .rental-cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
