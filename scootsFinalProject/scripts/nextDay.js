@@ -29,7 +29,7 @@ function displayForecastResults(data) {
         const weatherDescription = tomorrowNoonWeather.weather[0].description;
         const weatherIcon = tomorrowNoonWeather.weather[0].icon;
 
-        const forecastText = `Tomorrow's Forecast:<br>Temperature- ${temperature}°F<br>Humidity- ${humidity}%<br>Wind Speed- ${windSpeed} m/s<br>Weather- <img src="http://openweathermap.org/img/wn/${weatherIcon}.png" alt="${weatherDescription}">${weatherDescription}`;
+        const forecastText = `Tomorrow's Forecast:<br>Temperature- ${temperature}°F<br>Humidity- ${humidity}%<br>Wind Speed- ${windSpeed} m/s<br>Weather- <img src="https://openweathermap.org/img/wn/${weatherIcon}.png" alt="${weatherDescription}">${weatherDescription}`;
 
         document.getElementById("next-day-forecast").innerHTML = forecastText;
     } else {
