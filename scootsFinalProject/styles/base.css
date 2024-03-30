@@ -245,6 +245,11 @@ main {
     flex: 1;
     max-width: calc(50% - 20px);
     text-align: left;
+    margin: 20px;
+}
+
+#next-day-forecast {
+    text-align: right;
 }
 
 .rental-cards-container {
