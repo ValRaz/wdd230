@@ -232,7 +232,9 @@ main {
     text-align: center;
 }
 
-.rental-info h2 {
+.rental-card h3 {
+    font-size: 25px;
+    text-decoration: underline;
     text-align: center;
     grid-column: 1 / -1;
 }
