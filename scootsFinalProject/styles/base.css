@@ -226,12 +226,12 @@ main {
 .weather {
     text-align: center;
     margin: 20px auto;
+    margin: 20px;
 }
 
-.weather {
-    text-align: center;
-    margin: 20px auto;
-    margin: 20px;
+.weather h2 {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 #weather-info {
