@@ -28,7 +28,7 @@ function displayCurrentResults(data) {
     currentWindSpeedElem.textContent += `${data.wind.speed} mph`;
 
     const weatherDetailsElem = document.getElementById('weather-details');
-    weatherDetailsElem.textContent = ''; // Clear existing content
+    weatherDetailsElem.textContent = '';
 
     data.weather.forEach(weather => {
         const weatherItem = document.createElement('div');
