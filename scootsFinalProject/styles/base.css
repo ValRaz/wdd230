@@ -160,8 +160,8 @@ header h1 {
 
 .navigation li a:hover {
     font-weight: 600;
-    background-color: #bfffff;
-    color: #2a203f;
+    background-color: #043638;
+    color: #bfffff;
 }
 
 .navigation a.active {
