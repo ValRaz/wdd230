@@ -7,7 +7,7 @@
         "full_day_reservation": 30,
         "half_day_walk_in": 25,
         "full_day_walk_in": 35,
-        "image":"scootsFinalProject/images/hondaMetro.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/hondaMetro.webp"
       },
       {
         "type": "Honda Dio Scooter",
@@ -16,7 +16,7 @@
         "full_day_reservation": 40,
         "half_day_walk_in": 35,
         "full_day_walk_in": 45,
-        "image":"scootsFinalProject/images/hondaDio.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/hondaDio.webp"
       },
       {
         "type": "Honda PCX150 Scooter",
@@ -25,7 +25,7 @@
         "full_day_reservation": 50,
         "half_day_walk_in": 45,
         "full_day_walk_in": 55,
-        "image":"scootsFinalProject/images/pcx150.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/pcx150.webp"
       },
       {
         "type": "Honda Pioneer ATV",
@@ -34,7 +34,7 @@
         "full_day_reservation": 70,
         "half_day_walk_in": 60,
         "full_day_walk_in": 80,
-        "image":"scootsFinalProject/images/hondaPioneer.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/hondaPioneer.webp"
       },
       {
         "type": "Jeep Wrangler - 4 door with a/c",
@@ -43,7 +43,7 @@
         "full_day_reservation": 100,
         "half_day_walk_in": 85,
         "full_day_walk_in": 125,
-        "image":"scootsFinalProject/images/4-doorWrangler.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/4-doorWrangler.webp"
       },
       {
         "type": "Jeep Wrangler - 2 door",
@@ -52,7 +52,7 @@
         "full_day_reservation": 85,
         "half_day_walk_in": 70,
         "full_day_walk_in": 90,
-        "image":"scootsFinalProject/images/2doorWrangler.webp"
+        "image":"https://valraz.github.io/wdd230/scootsFinalProject/images/2doorWrangler.webp"
       }
     ]
   }
