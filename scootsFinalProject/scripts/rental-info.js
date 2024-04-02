@@ -15,17 +15,15 @@ function populateTable(rentals) {
 }
 
 function populateCards(rentals) {
-    const rentalCardsContainer = document.querySelector('.rental-cards');
-    rentals.forEach(rental => {
-        const card = document.createElement('div');
-        card.classList.add('card');
+    const rentalCards = document.querySelectorAll('.rentals-card');
+
+    rentalCards.forEach((card, index) => {
+        const rental = rentals[index];
         card.innerHTML = `
             <h3>${rental.type}</h3>
             <p>Max Capacity: ${rental.max_persons}</p>
             <img src="${rental.image}" alt="${rental.type}">
-            
         `;
-        rentalCardsContainer.appendChild(card);
     });
 }
 

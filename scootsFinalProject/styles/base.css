@@ -345,9 +345,44 @@ footer a{
 }
 
 .rental-pricing table {
-    width: 100%;
     background-color: #bfffff;
-    color: #2a203f;
+    color: #043638;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.rental-pricing table td,
+.rental-pricing table th {
+    border: 1px solid #2a203f;
+    padding: 8px;
+}
+
+.rental-pricing table {
+    margin: 0 auto;
+    border: 5px solid #2a203f;
+    box-shadow: 0 0 10px #fde8cf;
+}
+
+.rental-display-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.rentals-card {
+    text-align: center;
+    align-items: center;
+    background-color: #fde8cf;
+    color: #043638;
+    border: 5px solid #2a203f;
+    box-shadow: 0 0 10px #bfffff;
+    max-width: 600px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.rentals-card img {
+    width: 100%;
 }
