@@ -102,7 +102,12 @@ header h1 {
 .dark-mode .navigation,
 .dark-mode .rental-cards-container,
 .dark-mode .rental-card,
-.dark-mode .weather {
+.dark-mode .weather,
+.dark-mode .rental-pricing,
+.dark-mode .rental-pricing table,
+.dark-mode .rentals,
+.dark-mode .rental-display-cards,
+.dark-mode .rentals-card {
     background-color: #000;
     color: #fde8cf;
     text-decoration: none;
@@ -120,6 +125,11 @@ header h1 {
 
 .dark-mode .navigation a.active {
     text-decoration: underline;
+}
+
+.dark-mode .rentals-card h3 {
+    color: #fde8cf;
+    text-shadow: none;
 }
 
 .navigation {
