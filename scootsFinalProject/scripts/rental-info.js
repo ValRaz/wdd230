@@ -21,8 +21,10 @@ function populateCards(rentals) {
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
-            <img src="${rental.image}" alt="${rental.type}">
             <h3>${rental.type}</h3>
+            <p>Max Capacity: ${rental.max_persons}</p>
+            <img src="${rental.image}" alt="${rental.type}">
+            
         `;
         rentalCardsContainer.appendChild(card);
     });
