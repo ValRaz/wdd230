@@ -333,18 +333,21 @@ footer a{
     color: #bfffff;
 }
 
+.rental-pricing {
+    text-align: center;
+}
+
+.rental-pricing h2{
+    font-size: 25px;
+    margin-top: 0;
+    padding: 20px;
+    text-decoration: underline;
+}
+
 .rental-pricing table {
     width: 100%;
     background-color: #bfffff;
     color: #2a203f;
     border-collapse: collapse;
     margin-bottom: 20px;
-}
-
-.rental-pricing th {
-    vertical-align: middle;
-}
-
-.rental-pricing td {
-    vertical-align: top;
 }
