@@ -403,3 +403,171 @@ footer a{
     color: #2a203f;
     text-shadow: 1px 1px 0px #bfffff;
 }
+
+#reservations {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.reservation-form h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#reservation-form {
+    max-width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #043638;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px;
+}
+
+fieldset {
+    margin: 20px;
+    border: none;
+    border: 3px solid #bfffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+legend {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fde8cf;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fde8cf;
+}
+
+#reservation-form input[type="text"],
+#reservation-form input[type="email"],
+#reservation-form input[type="number"],
+#reservation-form input[type="tel"],
+#reservation-form input[type="date"],
+#reservation-form select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    border: 1px solid #bfffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.rental-info input[type="text"],
+.rental-info input[type="email"] {
+    text-align: left;
+}
+
+.rental-info {
+    margin: 20px;
+    border: none;
+    border: 3px solid #bfffff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+.rental-info legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fde8cf;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-shadow: -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000;
+}
+
+.special-info textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bfffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.submit {
+    display: block;
+    background-color: #bfffff;
+    color: #2a203f;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    font-weight: 900;
+    background-color: #2a203f;
+    color: #bfffff
+}
+
+.rental-agreement h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rental-agreement h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: #bfffff;
+    text-shadow: -3px -3px 0 #2a203f;
+    margin-top: 50px;
+}
+
+.rental-agreement li {
+    font-size: larger;
+    margin: 5px;
+}
+
+#res-pic {
+    max-width: 100%;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    #reservations {
+        grid-template-columns: 1fr; 
+    }
+    .rental-agreement,
+    .reservation-form {
+        margin-bottom: 20px;
+    }
+}
