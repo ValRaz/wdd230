@@ -107,7 +107,11 @@ header h1 {
 .dark-mode .rental-pricing table,
 .dark-mode .rentals,
 .dark-mode .rental-display-cards,
-.dark-mode .rentals-card {
+.dark-mode .rentals-card,
+.dark-mode .reservations,
+.dark-mode .rental-agreement,
+.dark-mode .reservation-form,
+.dark-mode #reservation-form {
     background-color: #000;
     color: #fde8cf;
     text-decoration: none;
