@@ -414,6 +414,7 @@ footer a{
 .reservation-form h2 {
     font-size: 25px;
     text-align: center;
+    text-decoration: underline;
 }
 
 #reservation-form {
@@ -539,6 +540,7 @@ label {
     font-size: 25px;
     text-align: center;
     margin-bottom: 50px;
+    text-decoration: underline;
 }
 
 .rental-agreement h3 {
