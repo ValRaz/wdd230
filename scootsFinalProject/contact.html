@@ -6,12 +6,14 @@
     <title>Scoots Website</title>
     <meta name="description" content="Final project for WDD 230 Scoots rental website">
     <meta name="author" content="Valerie Rasmussen">
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <link rel="icon" href="">
-    <link href="" rel="stylesheet">
+    <meta property="og:title" content="Scoots Rentals" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://valraz.github.io/wdd230/scootsFinalProject/contact.html" />
+    <meta property="og:image" content="https://valraz.github.io/wdd230/scootsFinalProject/images/scootsogImage.webp" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
 </head>
@@ -35,7 +37,7 @@
     </nav>
 
     <main id="contact">
-        <section class="main-contact">
+        <div class="main-contact">
             <section id="contact-info">
                 <h2>Contact Information</h2>
                 <h3>Addresses:</h3>
@@ -43,7 +45,7 @@
                 <h3>Phone:</h3> 
                 <p>987-652-7618</p>
                 <div>
-                    <img src="images/scootsLogo.webp">
+                    <img src="images/scootsLogo.webp" alt="logo image">
                 </div>   
             </section>
 
@@ -53,12 +55,12 @@
                     <fieldset class="contact-form">
                         <legend>Contact Information</legend>
                         <div>
-                            <label for="fname">First Name:
+                            <label for="firstname">First Name:
                                 <input type="text" id="firstname" name="firstname" required><br>
                             </label>
                         </div>
                         <div>
-                            <label for="lname">Last Name:
+                            <label for="lastname">Last Name:
                                 <input type="text" id="lastname" name="lastname" required><br>
                             </label>
                         </div>
@@ -76,7 +78,7 @@
                     <button class="submit-contact" type="submit">Submit</button>
                 </form>
             </section>
-        </section>
+        </div>
 
         <div class="map">
             <div id="map-container">
