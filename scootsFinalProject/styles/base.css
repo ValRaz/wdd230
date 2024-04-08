@@ -587,3 +587,121 @@ label {
     margin: 0 auto;
     padding: 20px;
 }
+
+#contact-info img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+}
+
+#contact-info h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+#contact-info h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    color: #bfffff;
+    text-shadow: -3px -3px 0 #2a203f;
+    margin-top: 50px;
+}
+
+#contact-info p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+#contact-form h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+#contact .main-contact {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 20px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="number"],
+#contact-form input[type="tel"],
+#contact-form input[type="date"],
+#contact-form select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    border: 1px solid #bfffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#contact-form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bfffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.submit-contact {
+    display: block;
+    background-color: #bfffff;
+    color: #2a203f;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.submit-contact:hover {
+    font-weight: 900;
+    background-color: #2a203f;
+    color: #bfffff
+}
+
+#att-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.attributions {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #2a203f;
+    background-color: #bfffff;
+}
+
+.attributions h2{
+    color:#043638;
+    text-decoration: underline;
+}

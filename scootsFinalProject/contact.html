@@ -34,8 +34,55 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="contact">
+        <section class="main-contact">
+            <section id="contact-info">
+                <h2>Contact Information</h2>
+                <h3>Addresses:</h3>
+                <p>C. 5 Sur and km 4.5 Av Claudio Canto, Cozumel Mexico</p>
+                <h3>Phone:</h3> 
+                <p>987-652-7618</p>
+                <div>
+                    <img src="images/scootsLogo.webp">
+                </div>   
+            </section>
 
+            <section id="contact-form">
+                <h2>Questions or feedback? Contact Us!</h2>
+                <form id="contact" action="contactThankYou.html" method="get">
+                    <fieldset class="contact-form">
+                        <legend>Contact Information</legend>
+                        <div>
+                            <label for="fname">First Name:
+                                <input type="text" id="firstname" name="firstname" required><br>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="lname">Last Name:
+                                <input type="text" id="lastname" name="lastname" required><br>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="email">Email:
+                                <input type="email" id="email" name="email" placeholder="email@gmail.com" title="Please enter a valid email address." required><br>
+                            </label>
+                        </div>
+                        <div>
+                            <label for="comment">Comment:
+                                <textarea id="comment" name="comment" required></textarea><br>
+                            </label>
+                        </div>
+                    </fieldset>    
+                    <button class="submit-contact" type="submit">Submit</button>
+                </form>
+            </section>
+        </section>
+
+        <div class="map">
+            <div id="map-container">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jaCXKWJG1grcWzfAtQxt9du6A9cm8h8&ehbc=2E312F&noprof=1" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Interactive Location Map"></iframe>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -45,7 +92,8 @@
             <li><a href="https://www.instagram.com/" target="_blank"><img src="images/instaicon.webp" alt= "instagram icon" loading="lazy"></a></li>
             <li><a href="https://www.threads.net/login" target="_blank"><img src="images/threadsicon.webp" alt="threads icon" loading="lazy"></a></li>
         </ul>
-        <p>&copy; 2024 Valerie Rasmussen - WDD230.<br><a href="https://valraz.github.io/wdd230/scootsFinalProject/site-plan.html" target="_blank">Site Plan</a></p>
+        <p>&copy; 2024 Valerie Rasmussen - WDD230.<br><a href="https://valraz.github.io/wdd230/scootsFinalProject/site-plan.html" target="_blank">Site Plan</a><br><a href="https://valraz.github.io/wdd230/scootsFinalProject/attributions.html" target="_blank">Attributions</a></p>
+
     </footer>
 </body>
 </html>
