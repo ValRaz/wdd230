@@ -111,7 +111,13 @@ header h1 {
 .dark-mode .reservations,
 .dark-mode .rental-agreement,
 .dark-mode .reservation-form,
-.dark-mode #reservation-form {
+.dark-mode #reservation-form,
+.dark-mode #contact,
+.dark-mode .main-contact,
+.dark-mode #contact-info,
+.dark-mode #contact-form,
+.dark-mode #contact-form-body,
+.dark-mode .contact-form {
     background-color: #000;
     color: #fde8cf;
     text-decoration: none;
