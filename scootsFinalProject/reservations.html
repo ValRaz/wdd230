@@ -74,14 +74,16 @@
                     <div>
                         <label for="period">Period:
                             <select id="period" name="period" required>
+                                <option value="" disabled selected hidden>Select period</option>
                                 <option value="half-day">Half Day</option>
                                 <option value="full-day">Full Day</option>
                             </select><br>
                         </label>
                     </div>
                     <div>
-                        <label for="rental-type">Rental Type:
+                        <label for="rental-type">Vehicle Type:
                             <select id="rental-type" name="rental-type" required>
+                                <option value="" disabled selected hidden>Select Vehicle Type</option>
                                 <option value="scooter">Scooter</option>
                                 <option value="atv">ATV</option>
                                 <option value="jeep">Jeep</option>
@@ -98,7 +100,7 @@
                 <fieldset class="renter-info">
                     <legend>Renter Information</legend>
                     <div>    
-                        <label for="phone">Phone Number: 
+                        <label for="pnumber">Phone Number: 
                             <input type="tel" id="pnumber" name="number" placeholder="12345552345" title="Please enter a valid mobile phone number." required><br>
                         </label>
                     </div>
@@ -135,7 +137,7 @@
                         <label for="special-accommodations">Special Accommodations/Comments:
                             <textarea id="special-accommodations" name="special-accommodations"></textarea><br>
                         </label>
-                    <div>
+                    </div>
                 </fieldset>
 
                 <input type="hidden" id="submissionDate" name="submissionDate" value="">
